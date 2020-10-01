@@ -1,0 +1,64 @@
+body {
+    font-family: Sans-Serif; /*Block text*/
+    text-align: center;
+}
+
+main {
+    background-color: #eeeeee; /*light gray*/
+}
+
+figure {
+    background-color: white;
+    width: 95%;
+}
+
+img {
+    width: 90%;
+    max-width: 1025px;
+}
+
+ul {
+    width: 600px;
+    text-align: left;
+    margin: auto;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    width: 560px;
+    text-align: left;
+    margin: auto;
+}
+
+#title {
+    color: teal;
+}
+
+h1 {
+    color: green;
+}
+
+.darkrose {
+    color: pink!important;
+}
+
+ul li{
+    color: blue;
+}
+
+li.yellow.bold{
+    color: yellow;
+    font-weight: bold;
+}
+
+li.yellow{
+    color: #666600;
+}
+
+li:hover{
+    font-style: italic;
+    color: purple;
+}
