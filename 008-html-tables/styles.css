@@ -1,0 +1,59 @@
+table, table * {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    /*background-color: green;*/
+}
+
+thead {
+    /*background-color: blue;*/
+}
+
+tbody {
+    /*background: red;*/
+}
+
+tr { /*row*/
+   height: 100px; 
+   /*background-color: yellow;*/
+}
+
+th {
+    background-color: dimgray;
+    color: white;
+}
+
+td { /*columns*/
+    width: 200px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    /*background-color: whitesmoke;*/
+}
+
+tfoot {
+    background-color: lightgray;
+}
+
+/*th[name="ann"] {*/
+/*    background-color: hotpink;*/
+/*}*/
+
+th[scope="row"]{
+    background-color: beige;
+    color: black;
+}
+
+.tuesday{
+    background-color: orange;
+}
+
+/*tbody tr:nth-child(3n - 1) {*/
+/*    background-color: purple;*/
+/*}*/
+
+/*thead tr:nth-child(2n){*/
+/*    background-color: aquamarine;*/
+/*}*/

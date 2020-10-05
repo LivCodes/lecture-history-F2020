@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Practice</title>
+    <link rel="stylesheet" href="styles.css" media="all">
+</head>
+<body>
+    <h1>My Class Schedule</h1>
+    <table>
+        <colgroup>
+            <col></col>
+            <col></col>
+            <col class="tuesday"></col>
+            <col></col>
+            <col></col>
+            <col></col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1st Period</th>
+                <td>English</td>
+                <td>Math</td>
+                <td>English</td>
+                <td>Math</td>
+                <td>Sign Language</td>
+            </tr>
+            <tr>
+                <th scope="row" name="ann">2nd Period</th>
+                <td>History</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>Science</td>
+                <td>Hip Hop Dance</td>
+            </tr>
+            <tr>
+                <th scope="row" rowspan="2">3rd Period</th>
+                <td>Art</td>
+                <td>Computer</td>
+                <td>Art</td>
+                <td>Computer</td>
+                <td>Bongos Drumming</td>
+            </tr>
+            <tr>
+                <td>P.E.</td>
+                <td>Music</td>
+                <td>P.E.</td>
+                <td>Music</td>
+                <td>Game Design</td>
+            </tr>
+            <tr>
+                <th scope="row" name="ann">4th Period</th>
+                <td>History</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>Science</td>
+                <td>Hip Hop Dance</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="footer" colspan="6">This is my schedule</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
