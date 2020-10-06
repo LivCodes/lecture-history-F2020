@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <h1>Ann's Party Guests Form!</h1>
+            <form>
+                <fieldset>
+                    <legend>Guest Information</legend>
+                    <div class="guest-info">
+                        <div>
+                            <label for="full-name">Full Name:</label>
+                            <input placeholder="Name here" id="full-name" type="text" name="guest-name"/>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input value="@marcylabschool.org" id="email" type="email" name="guest-email"/>
+                        </div>
+                        
+                        <label for="food-contributions">Contributions:</label>
+                        <textarea id="food-contributions"></textarea>
+    
+                        <div>
+                            <label for="guest-number">Numbers of Guests you're brining</label>
+                            <input id="guest-number" min="0" max="5" type="number" name="guest-number"/>
+                        </div>
+                    </div>
+                    
+                    <div class="image-container">
+                        <img alt="potluck" src="https://www.thespruce.com/thmb/6ldNzQ_QzDfaylCTcp2cqh1vPLI=/2576x2576/smart/filters:no_upscale()/overhead-smiling-neighbors-around-potluck-table-sunny-park-576799253-59934633aad52b0011e7cfd5.jpg"/>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Diet Restrictions</legend>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="keto"/>
+                            Keto
+                        </label>
+                        <br>
+                        
+                        <label>
+                            <input type="checkbox" name="vegan"/>
+                            Vegan
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="vegetarian"/>
+                            Vegetarian
+                        </label>
+                        <br>
+                        
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Spiciness</legend>
+                    
+                    <label>
+                        <input type="radio" name="spicy"/>
+                        Mild
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="spicy"/>
+                        Medium
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="spicy"/>
+                        Hot
+                    </label>
+                    
+                    <div>
+                        <label for="hot-sauce-brand">Prefered Brand of Hot Sauce:</label>
+                        <select id="hot-sauce-brand" name="hot-sauce">
+                            <option>None</option>
+                            <option>Tobasco</option>
+                            <option>Siracha</option>
+                        </select>
+                    </div>
+                    
+                </fieldset>
+                <input type="submit" value="RSVP"/>
+                
+            </form>
+        </main>
+    </body>
+</html>

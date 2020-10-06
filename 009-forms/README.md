@@ -4,7 +4,7 @@
 * **_Forms_** are the way that we send and retrieve information on the web.
   * Whenever you log in to Facebook, search for a video on YouTube, or add something to your cart on UberEats, you are submitting a form!
 *  **_HTTP** (or Hypertext Transfer Protocol)_is a set of rules that determine how messages are formatted and transmitted over the Web.
-* Forms are wrapped in a `<form>` tag. This tag congtains a `method` attribute that indcates the HTTP method to be used and an `action` attribute that determines the location where the form information should be sent.
+* Forms are wrapped in a `<form>` tag. This tag contains a `method` attribute that indcates the HTTP method to be used and an `action` attribute that determines the location where the form information should be sent.
 * There are a number of different `<input>` types that one can use to place hard or soft boundaries on the type of data that a user submits.
 * Forms, by default, are relatively unstructured. We can use semantic elements such as `<fieldset>`, `<legend>`, and even `<section>`, `<ul>`, and `<li>` to structure our form.
 

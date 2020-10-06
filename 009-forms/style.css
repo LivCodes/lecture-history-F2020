@@ -1,0 +1,29 @@
+body {
+    background-color: bisque;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+}
+
+fieldset{
+    margin: 15px;
+}
+
+input {
+    margin-bottom: 7px;
+}
+
+img {
+    width: 100px;
+}
+
+.guest-info, .image-container{
+    display: inline-block;
+}
