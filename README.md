@@ -8,3 +8,4 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 9/30 [The Box Model](https://us02web.zoom.us/rec/share/wvVdbHiQkZ3fh53pLxmGb1RhBTKnbZJJ_TfGRl69cI26nQnnBvDR_MU6lhgWYzNH.5rfSA36masOwrvMR)
 * 10/1 [Landing Page Review](https://youtu.be/Zn6L6479pmo)
 * 10/1 [Coding Challenge](https://us02web.zoom.us/rec/share/dySSSBBIbDZsSIdFNu4wKY5DOkQlC0je3COqiCXejZHIadiGjz60b2j6PaKZTsD0.WRkP22wsQRmkax8K)
+* 10/5 [HTML Tables](https://us02web.zoom.us/rec/share/rB3F2BKHksrN12nvJIhQiVISBKy_Tbn-YCBA8oPIGIUCaxQQ1NOmrKqZsXcwFdRa.a9oyxBIiwoyEjZyH)
