@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.35em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	background: #e8e9e9; /*lightgray*/
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 45px;
+}
+
+.container {
+	margin: auto;
+	padding: 10px;
+	background: #fff; /*white*/
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+
+.item {
+	color: #fff;
+	padding: 15px;
+	margin: 5px;	
+	background: #3db5da; /*skyblue*/
+	border-radius: 5px;
+}
