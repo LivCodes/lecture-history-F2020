@@ -9,3 +9,5 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 10/1 [Landing Page Review](https://youtu.be/Zn6L6479pmo)
 * 10/1 [Coding Challenge](https://us02web.zoom.us/rec/share/dySSSBBIbDZsSIdFNu4wKY5DOkQlC0je3COqiCXejZHIadiGjz60b2j6PaKZTsD0.WRkP22wsQRmkax8K)
 * 10/5 [HTML Tables](https://us02web.zoom.us/rec/share/rB3F2BKHksrN12nvJIhQiVISBKy_Tbn-YCBA8oPIGIUCaxQQ1NOmrKqZsXcwFdRa.a9oyxBIiwoyEjZyH)
+* 10/6 [HTML Forms](https://us02web.zoom.us/rec/share/poDHP1W8uiB3KQs8fpn2CL7VSK2whEZECIN01sdB9-96Y4VONfrbARmesRqw3dk7.ENomERfwrjTBXuug)
+* 10/6 [Code Challenge - isValidTriangle](https://us02web.zoom.us/rec/share/iuKYllV-zDnKn1hXsZhBj1vv0OhYIWrutK9AIgJM0z24AuPKHNAKsvPaYKeyOZgZ.IPm8lTzYVsCuIJ8r)
