@@ -31,5 +31,5 @@ No one LIKED using the Internet, so it had to adapt to survive.
 
 ### What can you do with JavaScript?
   * Build dope-ass web applications (Front End)
-  * Interacte with data and Databases (Back End)
+  * Interact with data and Databases (Back End)
   * Use it as a simple programming language to solve problems 
