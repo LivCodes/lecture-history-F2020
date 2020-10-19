@@ -33,3 +33,9 @@ No one LIKED using the Internet, so it had to adapt to survive.
   * Build dope-ass web applications (Front End)
   * Interact with data and Databases (Back End)
   * Use it as a simple programming language to solve problems 
+  
+  
+## Tips for Unit 2 - JavaScript Foundations
+ * For many fellows last year, mastery of this unit got them their jobs.
+ * Most college-y unit of them all. 
+ * Frame of Mind: Treat learning like a game; each function we have you write is a level for you to conquer and defeat!
