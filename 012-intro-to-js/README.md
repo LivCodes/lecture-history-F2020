@@ -33,7 +33,9 @@ No one LIKED using the Internet, so it had to adapt to survive.
   * Build dope-ass web applications (Front End)
   * Interact with data and Databases (Back End)
   * Use it as a simple programming language to solve problems 
-  
+
+### How can we connect HTML, CSS, and JavaScript?
+ * AWS demo
   
 ## Tips for Unit 2 - JavaScript Foundations
  * For many fellows last year, mastery of this unit got them their jobs.
