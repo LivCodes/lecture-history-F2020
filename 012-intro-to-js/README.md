@@ -21,7 +21,7 @@ As an average-every-day-person:
 **Desktop applications were a superior user experience!**
 
 ## So what does that mean for the Internet of the 90s
-  * No one LIKED using the Internet, so it had to adapt to survive.
+No one LIKED using the Internet, so it had to adapt to survive.
   
 ### Challenge:
   * Websites had HTML and CSS (content and styling). You could go from "page to page", but you couldn't program BEHAVIOR into the pages like you could a Desktop application.
