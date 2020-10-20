@@ -8,6 +8,8 @@
 
 ## How to JavaScript?
 * Multiple ways to "run" JavaScript
+* We are going to run JavaScript through an `html` file. Preview the `index.html`, open in a new tab, and open the Chrome Developer tools (console).
+* HTML, CSS, and JS are all "linked" together.
 
 ## What are the many data types in JavaScript, and how do they differ?
  * `typeof` operator
