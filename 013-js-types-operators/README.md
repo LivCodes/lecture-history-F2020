@@ -1,10 +1,10 @@
 
-# Unit 2 Lesson 1: Types and Operators
+# Unit 2 Lesson 1: Data Types, Values, and Operators
 
 
 ## Why?
-* Data types are the building blocks of JavaScript. They are the data used to "build" a program, kind of like legos blocks are used to build anything. 
-* Operators are how you combine data to make other data.
+* Data types are the building blocks of JavaScript. They are the data used to "build" a program, kind of like [legos blocks](https://media.giphy.com/media/l0JMrPWRQkTeg3jjO/giphy.gif) are used to build anything. 
+* Operators are how you combine data to make other data. Using an **operator** on **data(s)** will result in a **value**.
 
 ## How to JavaScript?
 * Multiple ways to "run" JavaScript
@@ -32,4 +32,4 @@
 
 ### Ternary Operator
 
-`cond` `?` `value_if_true` : `value_if_false`
+`conditional` `?` `value_if_true` : `value_if_false`
