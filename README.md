@@ -14,3 +14,5 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 10/7 [Flexbox](https://us02web.zoom.us/rec/share/jbJO2jTgmMM2JVWom8KQoLnU7KJrZ6SViqdsg04AN6row7R_W2POd8YiTZE4vTHj.xGPU3xri9Mu-MYp7)
 * 10/8 [Responsive Design](https://us02web.zoom.us/rec/share/ZuOY9aCsrqoE-I9DEuJ5BX5QgJxDEgXzZP5nw_KPO05jD0UMuuuLBSC-761Chx54.MRjhY-0pgout3XYn?startTime=1602165717000)
 * 10/20 [JS Types, Values, and Operators](https://us02web.zoom.us/rec/share/Ikv2ZUVoEzx5OpEnJw1xW9jbEL5OD0Oq4ATcAsRMGCMFXEZWoMN66dYX6ifjBupC.Pq7fggCPxfgbuuAy)
+* 10/21 [JS Variables](https://us02web.zoom.us/rec/share/GFNA83uqoSv2P9opNlvS6CIZJ5HirvGaW2BUDXiEXI5mvAPBjtH12tdO-Mp07Neb.Duu300Wi8E5thkos?startTime=1603289078000)
+* 10/21 [Loops](https://us02web.zoom.us/rec/share/GFNA83uqoSv2P9opNlvS6CIZJ5HirvGaW2BUDXiEXI5mvAPBjtH12tdO-Mp07Neb.Duu300Wi8E5thkos?startTime=1603294275000)
