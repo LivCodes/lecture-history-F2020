@@ -16,3 +16,4 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 10/20 [JS Types, Values, and Operators](https://us02web.zoom.us/rec/share/Ikv2ZUVoEzx5OpEnJw1xW9jbEL5OD0Oq4ATcAsRMGCMFXEZWoMN66dYX6ifjBupC.Pq7fggCPxfgbuuAy)
 * 10/21 [JS Variables](https://us02web.zoom.us/rec/share/GFNA83uqoSv2P9opNlvS6CIZJ5HirvGaW2BUDXiEXI5mvAPBjtH12tdO-Mp07Neb.Duu300Wi8E5thkos?startTime=1603289078000)
 * 10/21 [Loops](https://us02web.zoom.us/rec/share/GFNA83uqoSv2P9opNlvS6CIZJ5HirvGaW2BUDXiEXI5mvAPBjtH12tdO-Mp07Neb.Duu300Wi8E5thkos?startTime=1603294275000)
+* 10/22 [Functions](https://us02web.zoom.us/rec/share/wyTstfCFFvj39G-2H4kzhI8cg37Wu6HMEInCYYKafFmvEy8eTk722MVAuCv2bUoL.wQIsr81UNsqtbHPQ)
