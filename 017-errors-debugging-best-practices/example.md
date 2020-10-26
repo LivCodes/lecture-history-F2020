@@ -5,6 +5,10 @@ let x = 0;
 console.log(x)
 ```
 
+This is a sentence. The variable x is 
+initialized to 5 in the folowing 
+code `let x = 5`.
+
 This is a *sentence*.
 
 This is a dfferent **sentence**.
@@ -28,3 +32,5 @@ Check boxes
 - [ ] Jupiter
 - [ ] Saturn
 - [ ] Uranus
+
+
