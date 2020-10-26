@@ -7,6 +7,7 @@
 ### Naming Convention
 * snake_case
 * camelCase
+* CAPSLOCK
 
 ### Mark Down
 * Use `` to create an in-line code snippet
@@ -16,7 +17,8 @@
 
 
 ## Reading Error Messages
-* In coding, it's called "throwing an error"
+* In coding, it's called "throwing an error" [img](https://thumbs.dreamstime.com/b/hot-potato-20892390.jpg)
+* Interpretting errors - Read the error message AND the line number;
 
 #### ReferenceError
 Creates an instance representing an error that occurs when de-referencing an invalid reference.
@@ -36,54 +38,7 @@ Creates an instance representing an error that occurs when a variable or paramet
 
 ## Debugging with console.logs
 * Why is it called a 'bug'?
-* Check your assumptions
-
-* reading error message AND the line it's on (a couple of examples)
-* if statement checking to make sure you get to the right branch
-    * age = 18 as opposed to age == 18;
-* loop running total is not working
-* loop incrementer is flawed 
-
-
-```
-function getTotal(numbers){
-    let runningTotal = 0;
-    for (let i = 0; i < numbers.length; i++) {
-        runningTotal++;
-    } 
-    return runningTotal;
-}
-
-let sum = getTotal([2, 4, 6]);
-console.log(sum);
-```
-
-
-```
-function printEven(){
-    for (let i = 0; i <= 20; i + 2) {
-        console.log(`${i} is even.`);
-    }
-}
-
-printEven();
-```
-
-```
-var num = 18;
-var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-for (let i = 0; i < numbers.length; i++) {
-  var factor;
-  var divisor = numbers[i];
-
-  if (num % divisor === 0) {
-    factor = true;
-  }
-
-  if (factor) {
-    console.log(`${divisor} is a factor of ${num}!`);
-  }
-}
-```
+* Reading error message AND the line it's on! 
+* What if there is no error message (silent failure)
+  * Check your assumptions
 

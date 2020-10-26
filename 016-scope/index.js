@@ -1,21 +1,42 @@
-{
-   let singer = 'Omar Apollo';
+//function declar()
+//var expression;
+
+console.log(declar)
+console.log(expression)
+
+
+function declar(){
+    console.log("fdsaf")
 }
 
-console.log(`My favorite singer is ${singer}`);
+var expression = function(){
+    console.log("exp")
+}
 
 
-// let teacher = "Reuben";
+
+
+
+
+
+
+
+
+// var teacher = "Reuben";
 
 // function lecture(){
-//   let teacher = "Maya";
-//   console.log(teacher);
+//     //var teacher = "Ann";
+
+//     if (true) {
+//         var teacher = "Ann";
+//         console.log("block scope", teacher); //Ann
+//     }
+    
+//     console.log("function scope", teacher); //Ann!!! (because of function scope)
 // }
 
 // lecture();
-
-
-
+// console.log("global scope", teacher); //Reuben
 
 
 
