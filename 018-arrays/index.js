@@ -8,8 +8,8 @@ function double(num){
 }
 
 let copy = double(original);
-console.log("copy is", copy);
-console.log("original is", original);
+// console.log("copy is", copy);            //20
+// console.log("original is", original);    //10
 
 
 //non-primitive data types: pass by reference
@@ -22,7 +22,7 @@ function doubleArray(arr){
 }
 
 let copyArr = doubleArray(ogArray);
-console.log(copyArr);
-console.log(ogArray);
+// console.log(copyArr);    //[20]
+// console.log(ogArray);    //[20]
 
 

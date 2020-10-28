@@ -30,7 +30,9 @@ Objects
 + Under what conditions will an array be strictly or abstractly equal to another array?
 
 ## Important Array Tools
-+ What is the purpose of rest parameters? How do they differ from the arguments object?
++ What happens when you invoke a function with extra arguments?
+    + What is the purpose of rest parameters? 
+    + How do they differ from the arguments object?
 + What does it mean to destructure a JavaScript array?
 + What is the purpose of the spread operator?
 
