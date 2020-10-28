@@ -23,4 +23,5 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 10/26 Best Practices and Error Messages: [video](https://us02web.zoom.us/rec/share/yOj7Iu4aBzPU2xAyLChZO9CseP8l_vJNUda8e3IusIRxhPZ5BfuiGiJyPO7Hb0KI.Yqmb_-hH5K_e3Ui-) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/017-errors-debugging-best-practices)
 * 10/27 Debugging Workshop: [video](https://youtu.be/MpPDzr3gTQs) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/017-errors-debugging-best-practices) 
 * 10/27 Arrays: [video](https://us02web.zoom.us/rec/share/iVnfZb0mNvUATymHO2Fh-J5pUbJ0-9F3JD8A6lw-fcb011TVIuDO2pHHuPZ3B745.GSi_hlbWzggovUKD) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/018-arrays) 
+* 10/28 Array Tools and Methods: [video](https://us02web.zoom.us/rec/share/XxlxVeCO3S72Y9UiU241uZD6M9OUPJx4pRj0rol9ZABdxHhCH2tTMfvVK4DWBy-D.uS5A9vOslEwN0wVm) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/018-arrays)
 
