@@ -7,7 +7,7 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 9/29 HTML & CSS Part 1: [video](https://us02web.zoom.us/rec/share/jMbcvvgP2qCYZgJX42MbTzr3u0UdY_AMiW2PVLpvidbao4OkVPSWtg7ZzbDOV-yS.7oCrtwHWV-wU4pID) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/005-html-css)
 * 9/29 HTML & CSS Part 2: [video](https://us02web.zoom.us/rec/share/il0y1CmHcI6swzgZZTKUJ0bW1CYU2EUQPpYyrkzuNilWkjt_Ci9zu1SOp8Ww9oQG.s0IHZGyz1oc42irS) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/005-html-css)
 * 9/30 The Box Model: [video](https://us02web.zoom.us/rec/share/wvVdbHiQkZ3fh53pLxmGb1RhBTKnbZJJ_TfGRl69cI26nQnnBvDR_MU6lhgWYzNH.5rfSA36masOwrvMR) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/006-box-model)
-* 10/1 Landing Page Review: [video]() | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/007-landing-page-review)
+* 10/1 Landing Page Review: [video](https://youtu.be/lyJkK8m1ldw) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/007-landing-page-review)
 * 10/1 Coding Challenge - vowelCount: [video](https://us02web.zoom.us/rec/share/dySSSBBIbDZsSIdFNu4wKY5DOkQlC0je3COqiCXejZHIadiGjz60b2j6PaKZTsD0.WRkP22wsQRmkax8K)
 * 10/5 HTML Tables: [video](https://us02web.zoom.us/rec/share/rB3F2BKHksrN12nvJIhQiVISBKy_Tbn-YCBA8oPIGIUCaxQQ1NOmrKqZsXcwFdRa.a9oyxBIiwoyEjZyH) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/008-html-tables)
 * 10/6 HTML Forms: [video](https://us02web.zoom.us/rec/share/poDHP1W8uiB3KQs8fpn2CL7VSK2whEZECIN01sdB9-96Y4VONfrbARmesRqw3dk7.ENomERfwrjTBXuug) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/009-forms)
@@ -21,3 +21,6 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 10/22 Functions: [video](https://us02web.zoom.us/rec/share/wyTstfCFFvj39G-2H4kzhI8cg37Wu6HMEInCYYKafFmvEy8eTk722MVAuCv2bUoL.wQIsr81UNsqtbHPQ) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/015-functions)
 * 10/26 Scope: [video](https://us02web.zoom.us/rec/share/WkWIawiogCK0LJdzjjoE-jk6NEH0wkZb9F1E5haiyIcLCpyz1kCoT1N3TIYbnGeW.m7K0TVie3cE2QsBA) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/016-scope) 
 * 10/26 Best Practices and Error Messages: [video](https://us02web.zoom.us/rec/share/yOj7Iu4aBzPU2xAyLChZO9CseP8l_vJNUda8e3IusIRxhPZ5BfuiGiJyPO7Hb0KI.Yqmb_-hH5K_e3Ui-) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/017-errors-debugging-best-practices)
+* 10/27 Debugging Workshop: [video](https://youtu.be/MpPDzr3gTQs) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/017-errors-debugging-best-practices) 
+* 10/27 Arrays: [video](https://us02web.zoom.us/rec/share/iVnfZb0mNvUATymHO2Fh-J5pUbJ0-9F3JD8A6lw-fcb011TVIuDO2pHHuPZ3B745.GSi_hlbWzggovUKD) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/018-arrays) 
+
