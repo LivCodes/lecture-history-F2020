@@ -37,8 +37,21 @@ Creates an instance representing an error that occurs when a variable or paramet
 
 
 ## Debugging with console.logs
-* Why is it called a 'bug'?
 * Reading error message AND the line it's on! 
 * What if there is no error message (silent failure)
+  * Why is it called a 'bug'?
   * Check your assumptions
+
+
+
+
+
+
+
+
+
+
+
+
+
 

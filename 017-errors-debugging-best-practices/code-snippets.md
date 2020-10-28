@@ -22,6 +22,19 @@ for(let num=0;num<10;num++){
 }
 ```
 
+# Debugging:
+
+
+```//Problem: Add up all the numbers in an array.
+function getTotal(numbers){
+    let runningTotal = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        runningTotal++;
+    } 
+    return runningTotal;
+}
+```
+
 
 ```//Problem: If the number is even divisble by 3, return 'Fizz'; Otherwise, return the number.
 function fizz(num){
@@ -43,17 +56,6 @@ function checkWeather(weather){
     decision = "Stay home...";
   }
   return decision;
-}
-```
-
-
-```//Problem: Add up all the numbers in an array.
-function getTotal(numbers){
-    let runningTotal = 0;
-    for (let i = 0; i < numbers.length; i++) {
-        runningTotal++;
-    } 
-    return runningTotal;
 }
 ```
 
