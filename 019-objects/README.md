@@ -1,8 +1,12 @@
 # Objects
+["Ann", 28, true] //"lists"
+{age: 28, teacher: true, name: "Ann"} //organize, property 
 
 ## What is an object and why are they useful?
 * Another *data structure*!
 * How are they different from arrays?
+["Ann", 28, true]
+[28, true, "Ann"]
 
 ## Syntax to create an Object 
 * `{ }`
@@ -16,7 +20,7 @@
 * `obj.key`        => key is a STRING
 * `object[key]`    => key is a VARIABLE or EXPRESSION
 
-Iterating through an objects
+# Iterating through an objects
 * How to get all the keys of an Objects as an Array 
     * Object.keys()   
 
@@ -25,7 +29,6 @@ Iterating through an objects
 
 # Enumerable properties of an Object
 
-# Iterating through an array of Objects
 
 
 
@@ -34,4 +37,5 @@ Iterating through an objects
 * Functions as Object properties (methods)
 * Arrays as Objects
 * Copying objects, deep vs shallow copy 
+* Iterating through an array of Objects
 * Using objects as an alterative data structure to arrays
