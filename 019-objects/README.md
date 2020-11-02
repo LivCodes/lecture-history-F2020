@@ -24,18 +24,31 @@
 * How to get all the keys of an Objects as an Array 
     * Object.keys()   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Iterating through an objects
 * `for...in` loops
     * A more eloquent way to iterate over all Object keys
 
 # Enumerable properties of an Object
 
+# Functions as Object properties (methods)
 
+# Arrays as Objects
 
+# Copying objects, deep vs shallow copy 
 
-
-### Next Week...
-* Functions as Object properties (methods)
-* Arrays as Objects
-* Copying objects, deep vs shallow copy 
-* Iterating through an array of Objects
+# Iterating through an array of Objects
 * Using objects as an alterative data structure to arrays
