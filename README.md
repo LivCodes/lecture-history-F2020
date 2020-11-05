@@ -1,7 +1,6 @@
 # F20-lecture-history
 
 Lecture notes and slides can be viewed by exploring the folders in this repository. 
-[video]() | [code]() | [slides]() 
 
 ## Lecture Videos, Code, and Slides
 * 9/29 HTML & CSS Part 1: [video](https://us02web.zoom.us/rec/share/jMbcvvgP2qCYZgJX42MbTzr3u0UdY_AMiW2PVLpvidbao4OkVPSWtg7ZzbDOV-yS.7oCrtwHWV-wU4pID) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/005-html-css)
@@ -24,6 +23,7 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 10/27 Debugging Workshop: [video](https://youtu.be/MpPDzr3gTQs) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/017-errors-debugging-best-practices) 
 * 10/27 Arrays: [video](https://us02web.zoom.us/rec/share/iVnfZb0mNvUATymHO2Fh-J5pUbJ0-9F3JD8A6lw-fcb011TVIuDO2pHHuPZ3B745.GSi_hlbWzggovUKD) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/018-arrays) 
 * 10/28 Array Tools and Methods: [video](https://us02web.zoom.us/rec/share/XxlxVeCO3S72Y9UiU241uZD6M9OUPJx4pRj0rol9ZABdxHhCH2tTMfvVK4DWBy-D.uS5A9vOslEwN0wVm) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/018-arrays)
-* 10/29 Objects: [video](https://us02web.zoom.us/rec/share/bq710VD84IqNMMlz9qiXt9mD4Az8ue37weWsczhs3wM6MeGW177atPVOGC2QpSdZ.8Rco0FE2aaTJGTfD)
-* 10/29 Jest and Unit Test [video](https://us02web.zoom.us/rec/play/pvUu-mhs6ivRf0JpceXohGaAQ92KDS-IbHMIIsfVwkXAbHQHBSJTnp4j1JxlQpALJkg0fNsN2TrpnwoL.TFJFucjv9FHbIg1U)
-* 11/02 Objects, Advanced Topics: [video](https://us02web.zoom.us/rec/share/KrCG6w1UZV2TWLgxNegA9yUBbxEMa-tuI63OiFY4xu4Y8LGmBYb52XP6DINlCUFW.cOHqeG0LScXnwH4X)
+* 10/29 Objects: [video](https://us02web.zoom.us/rec/share/bq710VD84IqNMMlz9qiXt9mD4Az8ue37weWsczhs3wM6MeGW177atPVOGC2QpSdZ.8Rco0FE2aaTJGTfD) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/019-objects)
+* 10/29 Jest and Unit Test [video](https://us02web.zoom.us/rec/play/pvUu-mhs6ivRf0JpceXohGaAQ92KDS-IbHMIIsfVwkXAbHQHBSJTnp4j1JxlQpALJkg0fNsN2TrpnwoL.TFJFucjv9FHbIg1U) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/020-unit-testing-linting)
+* 11/02 Objects, Advanced Topics: [video](https://us02web.zoom.us/rec/share/KrCG6w1UZV2TWLgxNegA9yUBbxEMa-tuI63OiFY4xu4Y8LGmBYb52XP6DINlCUFW.cOHqeG0LScXnwH4X) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/019-objects)
+* 11/05 JS Review: [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/021-js-review)
