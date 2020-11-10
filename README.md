@@ -2,7 +2,7 @@
 
 Lecture notes and slides can be viewed by exploring the folders in this repository. 
 
-## Lecture Videos, Code, and Slides
+### Unit 1
 * 9/29 HTML & CSS Part 1: [video](https://us02web.zoom.us/rec/share/jMbcvvgP2qCYZgJX42MbTzr3u0UdY_AMiW2PVLpvidbao4OkVPSWtg7ZzbDOV-yS.7oCrtwHWV-wU4pID) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/005-html-css)
 * 9/29 HTML & CSS Part 2: [video](https://us02web.zoom.us/rec/share/il0y1CmHcI6swzgZZTKUJ0bW1CYU2EUQPpYyrkzuNilWkjt_Ci9zu1SOp8Ww9oQG.s0IHZGyz1oc42irS) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/005-html-css)
 * 9/30 The Box Model: [video](https://us02web.zoom.us/rec/share/wvVdbHiQkZ3fh53pLxmGb1RhBTKnbZJJ_TfGRl69cI26nQnnBvDR_MU6lhgWYzNH.5rfSA36masOwrvMR) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/006-box-model)
@@ -13,6 +13,9 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 10/06 Code Challenge - isValidTriangle: [video](https://us02web.zoom.us/rec/share/iuKYllV-zDnKn1hXsZhBj1vv0OhYIWrutK9AIgJM0z24AuPKHNAKsvPaYKeyOZgZ.IPm8lTzYVsCuIJ8r)
 * 10/07 Flexbox: [video](https://us02web.zoom.us/rec/share/jbJO2jTgmMM2JVWom8KQoLnU7KJrZ6SViqdsg04AN6row7R_W2POd8YiTZE4vTHj.xGPU3xri9Mu-MYp7) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/010-flexbox)
 * 10/08 Responsive Design: [video](https://us02web.zoom.us/rec/share/ZuOY9aCsrqoE-I9DEuJ5BX5QgJxDEgXzZP5nw_KPO05jD0UMuuuLBSC-761Chx54.MRjhY-0pgout3XYn) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/011-responsive-design)
+
+### Unit 2
+
 * 10/19 What is JavaScript: [video](https://us02web.zoom.us/rec/share/azUr8lXjrNRsG-quXv0gYNigMk2afx971rH6Bge_gaWiktI4vxdHQNBZfuxwgbEa.e2NXmP8q4ofsxVAL) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/012-intro-to-js)
 * 10/20 JS Types, Values, and Operators: [video](https://us02web.zoom.us/rec/share/Ikv2ZUVoEzx5OpEnJw1xW9jbEL5OD0Oq4ATcAsRMGCMFXEZWoMN66dYX6ifjBupC.Pq7fggCPxfgbuuAy) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/013-js-types-operators)
 * 10/21 JS Variables: [video](https://us02web.zoom.us/rec/share/GFNA83uqoSv2P9opNlvS6CIZJ5HirvGaW2BUDXiEXI5mvAPBjtH12tdO-Mp07Neb.Duu300Wi8E5thkos) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/014-js-variables-loops)
@@ -27,3 +30,7 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 10/29 Jest and Unit Test [video](https://us02web.zoom.us/rec/play/pvUu-mhs6ivRf0JpceXohGaAQ92KDS-IbHMIIsfVwkXAbHQHBSJTnp4j1JxlQpALJkg0fNsN2TrpnwoL.TFJFucjv9FHbIg1U) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/020-unit-testing-linting)
 * 11/02 Objects, Advanced Topics: [video](https://us02web.zoom.us/rec/share/KrCG6w1UZV2TWLgxNegA9yUBbxEMa-tuI63OiFY4xu4Y8LGmBYb52XP6DINlCUFW.cOHqeG0LScXnwH4X) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/019-objects)
 * 11/05 JS Review: [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/021-js-review)
+
+### Unit 3
+* 11/10 Debugger: [video](https://us02web.zoom.us/rec/share/plFBpAaZ-HN4fGe8YR_LMG3GzUwZzrEi5x6-zs2C_k8h0olP9lQXylRuI9-H3nMY.E9oZGRRpe9Z6sV4O) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/022-debugger)
+* 11/10 First Class Functions: [video](https://us02web.zoom.us/rec/share/4eombiqEh7t5e3gTH9gO-pZIxtA0TLFhuup0lUw7UjDxKHa79ZvLznsj6O2QpMaa.LA3vB0vao6_s3REA) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/023-first-class-functions)
