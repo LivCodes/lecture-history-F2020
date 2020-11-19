@@ -36,3 +36,6 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 11/10 First Class Functions: [video](https://us02web.zoom.us/rec/share/4eombiqEh7t5e3gTH9gO-pZIxtA0TLFhuup0lUw7UjDxKHa79ZvLznsj6O2QpMaa.LA3vB0vao6_s3REA) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/023-first-class-functions) | [video](https://us02web.zoom.us/rec/share/97pAHK9T5TaJbV2VjsmJWbefED6QtovaQeT3YGDyC5qzslZA9GtEaApR8bqzyal2.EJy04zlsJWLOes16)
 * 11/16 Strings and Regex: [video](https://us02web.zoom.us/rec/share/lwY37Zv3CqEnI_lm3CzcAwDJDIQyfixpzgZaBqYecA_AQKStBoFlDGZe7Ev76LtL.CQC_GPbcegP6Puaf) 
 * 11/16 Fluency: [video](https://us02web.zoom.us/rec/share/iOW4N5YKcKygnhgpa9ryfCZutH8rcfkfQMgYfjJUcT8a47I7L8Rs5X_DQNHKnhQT.VQrEUGBVnVGVtHgQ)
+* 11/17 Reduce and Sort: [video](https://us02web.zoom.us/rec/share/SVmkl1dts11cVgPFhfGK279U2vo00tGCSqqqtQhL9a-tKIj_UpGhAwk0HjcOQBL2._KzyA_Yza_Gyz6SH)
+* 11/18 PEDAC: [video](https://us02web.zoom.us/rec/share/N9bbmlUIFotcYk07pXhZTRF5VGPkmYdG7gBq9rQkGj8RUJfQLns_PKBKH9e4H2Zf.3xJ_yWZQQPJZYcS5)
+* 11/18: [video](https://us02web.zoom.us/rec/share/QSNfcSCE2bJZnPFp0CB9SlzCSJeos3WMngW4PNnLqZ_GXpq6LDRbaVR6aHyrvHuE.6ObZaJTrUzOdd0mY)
