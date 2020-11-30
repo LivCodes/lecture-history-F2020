@@ -42,4 +42,4 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 11/19: Fluency: [video](https://us02web.zoom.us/rec/share/3RQxzbQ-yqmdF_MzY2BKKpm-vwzQNiCBVhmiSZxuuLMygW44u4mmfIom3TJ1R0qC.wWHHPd8delTZG3Ox)
 
 ### Unit 4
-* 11/30 Encapsulation and Objects: [video]() | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/029-encapsulation-and-objects)
+* 11/30 Encapsulation and Objects: [video](https://us02web.zoom.us/rec/share/0NFhP-4en1r8rX94wixl7oaMVOv88yZsOLv-aw6K-wFUajReoXj4wsnI2xq4VllY.MhZ9-d8RJ6dQ6POh) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/029-encapsulation-and-objects)
