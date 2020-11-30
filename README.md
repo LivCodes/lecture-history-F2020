@@ -40,3 +40,6 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 11/18 PEDAC: [video](https://us02web.zoom.us/rec/share/N9bbmlUIFotcYk07pXhZTRF5VGPkmYdG7gBq9rQkGj8RUJfQLns_PKBKH9e4H2Zf.3xJ_yWZQQPJZYcS5)
 * 11/18 Code Challenge (Balanced Array): [video](https://us02web.zoom.us/rec/share/QSNfcSCE2bJZnPFp0CB9SlzCSJeos3WMngW4PNnLqZ_GXpq6LDRbaVR6aHyrvHuE.6ObZaJTrUzOdd0mY)
 * 11/19: Fluency: [video](https://us02web.zoom.us/rec/share/3RQxzbQ-yqmdF_MzY2BKKpm-vwzQNiCBVhmiSZxuuLMygW44u4mmfIom3TJ1R0qC.wWHHPd8delTZG3Ox)
+
+### Unit 4
+* 11/30 Encapsulation and Objects: [video]() | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/029-encapsulation-and-objects)
