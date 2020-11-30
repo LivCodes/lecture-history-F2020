@@ -32,10 +32,11 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 11/05 JS Review: [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/021-js-review)
 
 ### Unit 3
-* 11/10 Debugger: [video](https://us02web.zoom.us/rec/share/plFBpAaZ-HN4fGe8YR_LMG3GzUwZzrEi5x6-zs2C_k8h0olP9lQXylRuI9-H3nMY.E9oZGRRpe9Z6sV4O) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/022-debugger)  | [video](https://us02web.zoom.us/rec/share/Q9ZTRJ6YWtnZFAvytUXcP_THEVXSU_d_Gi9wPrIH4co5wzb_b4RIxRI0NkMzL7lV.b6fyaBo3-stMBu-7)
-* 11/10 First Class Functions: [video](https://us02web.zoom.us/rec/share/4eombiqEh7t5e3gTH9gO-pZIxtA0TLFhuup0lUw7UjDxKHa79ZvLznsj6O2QpMaa.LA3vB0vao6_s3REA) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/023-first-class-functions) | [video](https://us02web.zoom.us/rec/share/97pAHK9T5TaJbV2VjsmJWbefED6QtovaQeT3YGDyC5qzslZA9GtEaApR8bqzyal2.EJy04zlsJWLOes16)
-* 11/16 Strings and Regex: [video](https://us02web.zoom.us/rec/share/lwY37Zv3CqEnI_lm3CzcAwDJDIQyfixpzgZaBqYecA_AQKStBoFlDGZe7Ev76LtL.CQC_GPbcegP6Puaf) 
-* 11/16 Fluency: [video](https://us02web.zoom.us/rec/share/iOW4N5YKcKygnhgpa9ryfCZutH8rcfkfQMgYfjJUcT8a47I7L8Rs5X_DQNHKnhQT.VQrEUGBVnVGVtHgQ)
-* 11/17 Reduce and Sort: [video](https://us02web.zoom.us/rec/share/SVmkl1dts11cVgPFhfGK279U2vo00tGCSqqqtQhL9a-tKIj_UpGhAwk0HjcOQBL2._KzyA_Yza_Gyz6SH)
+* 11/10 Debugger: [video](https://us02web.zoom.us/rec/share/plFBpAaZ-HN4fGe8YR_LMG3GzUwZzrEi5x6-zs2C_k8h0olP9lQXylRuI9-H3nMY.E9oZGRRpe9Z6sV4O) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/022-debugger) 
+* 11/10 First Class Functions: [video](https://us02web.zoom.us/rec/share/4eombiqEh7t5e3gTH9gO-pZIxtA0TLFhuup0lUw7UjDxKHa79ZvLznsj6O2QpMaa.LA3vB0vao6_s3REA) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/023-first-class-functions) 
+* 11/16 Strings and Regex: [video](https://us02web.zoom.us/rec/share/lwY37Zv3CqEnI_lm3CzcAwDJDIQyfixpzgZaBqYecA_AQKStBoFlDGZe7Ev76LtL.CQC_GPbcegP6Puaf) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/026-strings-regex)
+* 11/16 Fluency: [video](https://us02web.zoom.us/rec/share/iOW4N5YKcKygnhgpa9ryfCZutH8rcfkfQMgYfjJUcT8a47I7L8Rs5X_DQNHKnhQT.VQrEUGBVnVGVtHgQ) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/027-fluency)
+* 11/17 Reduce and Sort: [video](https://us02web.zoom.us/rec/share/SVmkl1dts11cVgPFhfGK279U2vo00tGCSqqqtQhL9a-tKIj_UpGhAwk0HjcOQBL2._KzyA_Yza_Gyz6SH) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/028-reduce-sort)
 * 11/18 PEDAC: [video](https://us02web.zoom.us/rec/share/N9bbmlUIFotcYk07pXhZTRF5VGPkmYdG7gBq9rQkGj8RUJfQLns_PKBKH9e4H2Zf.3xJ_yWZQQPJZYcS5)
-* 11/18: [video](https://us02web.zoom.us/rec/share/QSNfcSCE2bJZnPFp0CB9SlzCSJeos3WMngW4PNnLqZ_GXpq6LDRbaVR6aHyrvHuE.6ObZaJTrUzOdd0mY)
+* 11/18 Code Challenge (Balanced Array): [video](https://us02web.zoom.us/rec/share/QSNfcSCE2bJZnPFp0CB9SlzCSJeos3WMngW4PNnLqZ_GXpq6LDRbaVR6aHyrvHuE.6ObZaJTrUzOdd0mY)
+* 11/19: Fluency: [video](https://us02web.zoom.us/rec/share/3RQxzbQ-yqmdF_MzY2BKKpm-vwzQNiCBVhmiSZxuuLMygW44u4mmfIom3TJ1R0qC.wWHHPd8delTZG3Ox)
