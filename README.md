@@ -43,3 +43,5 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 
 ### Unit 4
 * 11/30 Encapsulation and Objects: [video](https://us02web.zoom.us/rec/share/0NFhP-4en1r8rX94wixl7oaMVOv88yZsOLv-aw6K-wFUajReoXj4wsnI2xq4VllY.MhZ9-d8RJ6dQ6POh) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/029-encapsulation-and-objects)
+* 12/01 Factory Functions and Building a Virtual Pet: [video](https://us02web.zoom.us/rec/share/FxyyUq4W2i6nKC37gz42vEx-lPS0hh9uXy7x73Ygsvn-bNHVAoZTflP7EHIsoivV.LgSYJkk6YaNsfcSk) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/030-objects-practice)
+* 12/01 Building a Shopping List: [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/031-more-objects-practice)
