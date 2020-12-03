@@ -3,7 +3,7 @@ function counterCreator(noun){
   let id = 1; //NOT globally scoped
 
   return function (){
-    console.log(`${id} ${noun}`); //is access here
+    console.log(`${id} ${noun}`); //is accessible here
     id += 1;
   }
 }

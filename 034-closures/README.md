@@ -36,4 +36,31 @@ anotherFunction();
  - every time to invoke
  - re-creating and reclarding those variables 
 
+```js
+
+function counterCreator(noun){
+  let id = 1; //NOT globally scoped
+
+  return function (){
+    console.log(`${id} ${noun}`); //is accessible here
+    id += 1;
+  }
+}
+
+//returning a function
+let annsCounter = counterCreator("bird");
+
+
+// return another copy of that function 
+let reubensCounter = counterCreator("pony");
+
+
+//return a third copy of that function
+let mayaCounter = counterCreator("dog");
+
+
+
+
+```
+
 - Pre-setting a variable
