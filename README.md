@@ -61,3 +61,5 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 
 * 01/06 Intro to Algorithms: [video](https://us02web.zoom.us/rec/share/ZW6bErbNPbJxBexD0DHMSBEMyKY9EOuVr6Gy-nwAFI0QaXbm0Nw4COzq6TsXt-vz.Hv3UJhTJonXE09Zw) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/041-why-algorithms-matter)
 * 01/06 Big O: [video](https://us02web.zoom.us/rec/share/RXQSoHYhoFeuH9JZyLZnZUXJgD7rqSk9G7sz6gSkfkVB4ezZJkQwsRMEvhqqgbGX.tMUgEAEt-fzIvkGp) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/042-big-o) 
+* 01/07 Nodes: [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/043-nodes)
+* 01/07 LinkedLists: [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/044-linked-lists)
