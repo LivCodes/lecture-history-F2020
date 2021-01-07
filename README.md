@@ -56,3 +56,8 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 12/10 Building OO Twitter [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/38-oo-twitter) | [video part 1](https://us02web.zoom.us/rec/play/kvsOD74I15KKMry3dcv_46_RzmAVGQ9ycBpF-f1od7kO7r-3klc72wx5_i1imdgxsQQEw3eBDB7ZS5i_.ALXQEeaBsxLFLq7N) | [video part 2](https://us02web.zoom.us/rec/play/kRtbw11TZN7xQTHjoTGWt-GnNHc8DtNKmbbpi0tuSvzFHoY_6YJj2GTwDtxdq8OXqc3dQnf9DxdirSVC.DwkHV5is5wiKM092) | [video part 3](https://us02web.zoom.us/rec/share/kVX7SbuVFLj-_1TFBD4dgjFlJFO43TTnSKVnTcLRzXhLz60HcK8JoE1cBdvrokFF.AvHjxskekUUEURvV)
 * 12/14 Building OO Amazon [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/39-oo-amazon) | [video](https://us02web.zoom.us/rec/share/ftrkOdhDm90LUPLCQ1DMsq_c-LbXugBcuecQtsawGHOYQCHGPiXke9igAGo62jQb.CpTS47mFeD3mysFY)
 * 12/16 OOJS Review: [video](https://us02web.zoom.us/rec/share/iIlCdYHOlIHJAIf74xwRH2_XXx9dHP4Ha9ntYOPRCCH7C1Xc6eHTZBskzxDfkwVY.FmrF7GGattBgamnn)
+
+### Unit X
+
+* 01/06 Intro to Algorithms: [video](https://us02web.zoom.us/rec/share/ZW6bErbNPbJxBexD0DHMSBEMyKY9EOuVr6Gy-nwAFI0QaXbm0Nw4COzq6TsXt-vz.Hv3UJhTJonXE09Zw) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/041-why-algorithms-matter)
+* 01/06 Big O: [video](https://us02web.zoom.us/rec/share/RXQSoHYhoFeuH9JZyLZnZUXJgD7rqSk9G7sz6gSkfkVB4ezZJkQwsRMEvhqqgbGX.tMUgEAEt-fzIvkGp) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/042-big-o) 
