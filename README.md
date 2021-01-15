@@ -67,3 +67,6 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 01/11 Stacks: [video](https://us02web.zoom.us/rec/share/xH5xu_8xYWX52SBu9iPV0R1pwOpfBUdbx2AJ3YWDCJKGmS1UYakZwabH3Tfzn62M.lSG3NMGETMro0U1U) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/046-stacks)
 * 01/12 Recurions: [video](https://us02web.zoom.us/rec/share/7nougpjFXxdD5AFYm_7q4oimXgQ3RszNqEaKF4Dmd-Ph3uMt9MUpTSPWiwERDvov.kPXkpBEXoiLg9S8a) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/047-recursion)
 * 01/13 Hash Maps: [video](https://us02web.zoom.us/rec/share/_xp86Z8CB1LBPW0gETGbE2DvnswdFq6_EkH3RnxH-s-EdcgmRB7mCm2j0AuacPzR.rLyZXqcW7Xt6esxV) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/048-hash-maps)
+* 01/14 Trees: [video](https://us02web.zoom.us/rec/share/lK5FJDtzkxmb66DjBeMzZdvRxAE-bDbSq0qx1X4zeExYspnZBNovO55193-njabe.he7BpPHTbpHNj6G3) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/049-trees)
+* 01/14 Binary Search Tree: [video](https://us02web.zoom.us/rec/share/KMsz0yGwzBExyDXv-p4SGrESjQMq_bFts0VFa6RSXbZbm7V53Tr_5T6NLiyJRk-x.f6KXah6GxH6SGsUY
+) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/050-binary-search-trees)
