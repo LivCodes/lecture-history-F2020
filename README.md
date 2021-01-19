@@ -70,3 +70,4 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 01/14 Trees: [video](https://us02web.zoom.us/rec/share/lK5FJDtzkxmb66DjBeMzZdvRxAE-bDbSq0qx1X4zeExYspnZBNovO55193-njabe.he7BpPHTbpHNj6G3) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/049-trees)
 * 01/14 Binary Search Tree: [video](https://us02web.zoom.us/rec/share/KMsz0yGwzBExyDXv-p4SGrESjQMq_bFts0VFa6RSXbZbm7V53Tr_5T6NLiyJRk-x.f6KXah6GxH6SGsUY
 ) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/050-binary-search-trees)
+* 01/19: Graphs: [video](https://us02web.zoom.us/rec/share/RWYe6IWxRjm2QF2635fJPyHK4ECet-bWZvrFnexIRAtEDo9ohS_5LrMFgQRDy4lC.PSAVcqq71IuCyc6V) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/051-graphs)
