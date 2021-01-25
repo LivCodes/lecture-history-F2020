@@ -1,0 +1,28 @@
+<h1>Document Object Model</h1>
+
+<table id="instructor-table" class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="person" id="row-1">
+      <td class="firstName">Ann</td>
+      <td class="lastName">Duong</td>
+      <td class="email">ann@marcylabschool.org</td>
+    </tr>
+    <tr class="person" id="row-2">
+      <td class="firstName">Reuben</td>
+      <td class="lastName">Ogbonna</td>
+      <td class="email">reuben@marcylabschool.org</td>
+    </tr>
+    <tr class="person" id="row-3">
+      <td class="firstName">Erwins</td>
+      <td class="lastName">Saget</td>
+      <td class="email">erwins@marcylabschool.org</td>
+    </tr>
+  </tbody>
+</table>
