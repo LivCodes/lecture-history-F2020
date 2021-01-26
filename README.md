@@ -69,5 +69,10 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 01/13 Hash Maps: [video](https://us02web.zoom.us/rec/share/_xp86Z8CB1LBPW0gETGbE2DvnswdFq6_EkH3RnxH-s-EdcgmRB7mCm2j0AuacPzR.rLyZXqcW7Xt6esxV) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/048-hash-maps)
 * 01/14 Trees: [video](https://us02web.zoom.us/rec/share/lK5FJDtzkxmb66DjBeMzZdvRxAE-bDbSq0qx1X4zeExYspnZBNovO55193-njabe.he7BpPHTbpHNj6G3) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/049-trees)
 * 01/14 Binary Search Tree: [video](https://us02web.zoom.us/rec/share/KMsz0yGwzBExyDXv-p4SGrESjQMq_bFts0VFa6RSXbZbm7V53Tr_5T6NLiyJRk-x.f6KXah6GxH6SGsUY) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/050-binary-search-trees)
-* 01/19: Graphs: [video](https://us02web.zoom.us/rec/share/RWYe6IWxRjm2QF2635fJPyHK4ECet-bWZvrFnexIRAtEDo9ohS_5LrMFgQRDy4lC.PSAVcqq71IuCyc6V) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/051-graphs)
-* 01/20: Sorting: [video](https://us02web.zoom.us/rec/share/-N2H81YZFJjeVLncWzWT8Y7kZx2uAwKvwbcjtCE8V9D2D5JdF6N27qtP99FanP3e.rUlMPPbNfLyOf2ZF) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/052-sorting)
+* 01/19 Graphs: [video](https://us02web.zoom.us/rec/share/RWYe6IWxRjm2QF2635fJPyHK4ECet-bWZvrFnexIRAtEDo9ohS_5LrMFgQRDy4lC.PSAVcqq71IuCyc6V) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/051-graphs)
+* 01/20 Sorting: [video](https://us02web.zoom.us/rec/share/-N2H81YZFJjeVLncWzWT8Y7kZx2uAwKvwbcjtCE8V9D2D5JdF6N27qtP99FanP3e.rUlMPPbNfLyOf2ZF) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/052-sorting)
+
+### Unit 5
+
+* 01/25 Intro to DOM: [video](https://us02web.zoom.us/rec/share/oaaD3jPB6GZP0a5zC8FB1qoFbHxQa-ZLIFKWCCQVmq6caTd0WTZTNwIn5QKvTQrQ.LUUtF92EM3vSZzzr) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/053-intro-to-DOM)
+* 01/26 DOM API: [video part 1](https://us02web.zoom.us/rec/share/oD3LzIIXaPBgQJLSKuok9PMMVMX5tr1wfeJVQjZbf69xdbqsyuHHCe6RPyCVZYa4.63VKPxTJ3bJfvEr0) 
