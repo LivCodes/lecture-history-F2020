@@ -1,0 +1,10 @@
+.table-container {
+  margin: auto;
+  width: 70%;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+tbody tr:nth-child(odd) {
+  background: snow;
+}
