@@ -75,3 +75,4 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 ### Unit 5
 
 * 01/25 Intro to DOM: [video](https://us02web.zoom.us/rec/share/oaaD3jPB6GZP0a5zC8FB1qoFbHxQa-ZLIFKWCCQVmq6caTd0WTZTNwIn5QKvTQrQ.LUUtF92EM3vSZzzr) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/053-intro-to-DOM)
+* 01/26 DOM API: [video part 1](https://us02web.zoom.us/rec/share/oD3LzIIXaPBgQJLSKuok9PMMVMX5tr1wfeJVQjZbf69xdbqsyuHHCe6RPyCVZYa4.63VKPxTJ3bJfvEr0) 
