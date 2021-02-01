@@ -1,6 +1,13 @@
 # Forms
+
+## Review'
 * There's a `form` element in our HTML. Check it out and review forms. 
-* Goal: As a user, I should be able to fill out and submit the form to add an instructor to our table.
+* When <some> event happens on <some> DOM element, we manipulate the DOM in <some> way
+
+* Goal: As a user, I should be able to fill out and submit the form to add an instructor to our table, and then the form inputs will clear out.
+
+* When <submit> event happens on <form> DOM element, we manipulate the DOM <tbody> to have a new <tr> (addInstructor())
+
 
 ## Forms and event handlers
 - Listen for a `submit` event!
@@ -18,17 +25,19 @@
 ## Different Input types
 * "text"
 * "submit"
-* "password"
+* "checkbox" (.checked to get a boolean)
 * "radio"
-* "checkbox"
+* "number"
+* "button"
+* "password"
 * "date"
-* and many more!
+* and many more 
 
 ## Form validation
+- accept the form only if it's filled out properly!
 
 ## Miscellaneous Topics
 - [`innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
-- [HTML data set](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/dataset)
 
 ## Creating webpages moving forward
 - You are allowed to edit `index.html`, `index.js`, `styles.css`, everything!

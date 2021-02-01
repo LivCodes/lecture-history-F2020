@@ -12,3 +12,7 @@
   border-color: lightsteelblue;
   display: inline-block;
 }
+
+input:invalid {
+  background-color: pink;
+}
