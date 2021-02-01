@@ -1,0 +1,14 @@
+.table-container {
+  margin: auto;
+  width: 70%;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.form {
+  margin: 30px;
+  padding: 10px;
+  border-style: solid;
+  border-color: lightsteelblue;
+  display: inline-block;
+}
