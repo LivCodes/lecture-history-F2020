@@ -1,0 +1,29 @@
+td {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+#container {
+  width: 450px;
+  margin:auto;
+  display: block;
+
+}
+
+#form {
+  display: none;
+}
