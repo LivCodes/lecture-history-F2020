@@ -81,3 +81,8 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 01/28 Alias: [30min-video-of-Ann-struggling](https://us02web.zoom.us/rec/share/UAeAvBSmrpBgoyaxzV4KBEfKUixzHr2b_2_rfKW7TKRBcpSz-7akmqim3cSt_ls.89tnDbJLtse-5TZj) | [5min-useful-video-alias-tutorial](https://us02web.zoom.us/rec/share/wnlg8ot7uNE5k4cfGqmrs1jD0ssktPn9a9Y-p0kQMfWBqISime0PHeSatKNMSuIB.POkpqiWtJSDfJA6v)
 * 02/01 JS Forms: [video part 1](https://us02web.zoom.us/rec/share/puKBLOQ0nDY85FTfdbUSJFzdLBy6H86TiZ5zaCoGhioFVEyW-z9AUevayublq-Wg.VSmTDw8xj4xgSiD5) | [video part 2](https://us02web.zoom.us/rec/share/3oO-FakUCF0weLHCQY2VIhouP3wQhjf-WwLXO9x3rCxPiqQXJwiTDedrnnOBTamS.fN6AkL0bmq5rloax) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/057-forms)
 * 02/02 OOJS and DOM: [video part 1](https://us02web.zoom.us/rec/share/ZcJr0PT8QaKz4BEyl7cL0xggy_vcwmssYX0nRz7ZFswBNEXN7RZVIg1rfMZhRvQ.P5H0wJCM6gD8afsg) | [vide part2](https://us02web.zoom.us/rec/share/iQqA8M3xLf8aFO5oh6jPRLBHymAh4tI1JesmVWcHhYhwKayHHfj8wO8r0qDa2thq.o24LC5KWvvoFGDJa) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/058-oojs-dom)
+
+### Unit 6 
+
+* 02/17 Intro to HTTP: [video](https://us02web.zoom.us/rec/share/9FXJCK8ZVeccWE-oE6i_4zp14AWLAI9RegZUbWy6WojqTSfQUX3aBXNAVU8Rgly_.ik-3bs2PZTPSp02F) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/059-intro-to-http)
+* 02/17 APIs and AJAX: [video](https://us02web.zoom.us/rec/share/pSlX1tVVF0ym4HMNzQNDcMcjEURfVlgZ0DCoYSBD5umHBPy1yeitmuTyc3J33aSM.d9OYNIqfRlm4aETh) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/060-apis-ajax) | [gist](https://gist.github.com/thuyanduong/f86457477d9816860955c46c6e5b5602)
