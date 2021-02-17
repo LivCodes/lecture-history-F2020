@@ -1,7 +1,7 @@
 # APIs and AJAX
 
 ## Async JavaScript Review
-* JavaScript is single threaded. It can only do one thing at a time.
+* JavaScript is synchronous single threaded. It can only do one thing at a time.
 * Normally, this isn't a problem unless a process takes a while, then it's blocking.
     * What if we want to communicate with other apps on the internet?
 * Asynchronous code is non-blocking! Hooray!!
@@ -17,9 +17,12 @@
 * JavaScript Object Notion
 * A type of data format that is a **string** in the shape of a JavaScript object.
 * We can convert JSON string to JavaScript object using `JSON.stringify()` and `JSON.parse()`.
+* Have to wrap keys in double quotes 
+* Can't use singel quotes
 
 
 ## APIs (What's it stand for?)
+* Application Programming Interface 
 * How our program can interface (interact) with other applications/programs 
 * CLI (Command Line Interface)
 * GUI (Graphical User Interface)
@@ -41,4 +44,9 @@
 
 
 ## Learn by doing!
-* Create a webpage that lists all the Rick and Morty by requesting that information from an API!
+* Create a webpage that lists all the Rick and Morty characters by requesting that information from an API!
+* Check the Network tab when the page loads!
+
+When some event happens -> request data ->  manipulate the DOM 
+
+When the button is click -> requst /character -> create a bunch of character elements 
