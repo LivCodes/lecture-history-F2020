@@ -1,6 +1,0 @@
-getElementsByClassName("infobox")
-getElementsByTagName("p")
-
-querySelector("") //anything 
-querySelectorAll("p")
-querySelectorAll("a")
