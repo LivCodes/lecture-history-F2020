@@ -86,3 +86,4 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 
 * 02/17 Intro to HTTP: [video](https://us02web.zoom.us/rec/share/9FXJCK8ZVeccWE-oE6i_4zp14AWLAI9RegZUbWy6WojqTSfQUX3aBXNAVU8Rgly_.ik-3bs2PZTPSp02F) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/059-intro-to-http)
 * 02/17 APIs and AJAX: [video](https://us02web.zoom.us/rec/share/pSlX1tVVF0ym4HMNzQNDcMcjEURfVlgZ0DCoYSBD5umHBPy1yeitmuTyc3J33aSM.d9OYNIqfRlm4aETh) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/060-apis-ajax) | [gist](https://gist.github.com/thuyanduong/f86457477d9816860955c46c6e5b5602)
+* 2/18 Fetch: [video](https://us02web.zoom.us/rec/share/Bgt8kat_I1joOnnmHnWYnCkMLURsOoL2Qg_41WEEXZoxGEAQi_hl47Zr6wk3s5W1.xV7R1fsnn3FLFxrY) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/061-fetch)
