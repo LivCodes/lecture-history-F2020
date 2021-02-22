@@ -4,40 +4,45 @@
     <meta charset="utf-8">
     <title>More Fetch</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="secrets.js"></script> 
     <script src="index.js"></script> 
   </head>
   <body>
+    <h1 class="jumbotron">The Ultimate Searcing App</h1>
+
     <div class="container">
 
       <!-- Giphy Searcher -->
-      <form id="giphy-form">
+      <form id="giphy-form"> <!--Form-->
         <div class="form-group">
           <label for="giphy-input">Search Giphy</label>
           <input id="giphy-input" type="text" class="form-control" placeholder="Search Gifs">
         </div>
         <button type="submit" class="btn btn-primary">Search Giphy API</button>
       </form>
-      <div id="giphy-div"></div>
+      <div id="giphy-div"></div> <!--Display Div-->
+      <br>
 
       <!-- News Searcher -->
-      <form id="news-form">
+      <form id="news-form"> <!--Form-->
         <div class="form-group">
           <label for="news-input">Search News</label>
           <input id="news-input" type="text" class="form-control"placeholder="Search Headlines">
         </div>
         <button type="submit" class="btn btn-primary">Search News API</button>
       </form>
-      <div id="news-div"></div>
+      <div id="news-div"></div> <!--Display Div-->
+      <br>
 
       <!-- Yelp Searcher -->
-      <form id="yelp-form">
+      <form id="yelp-form"> <!--Form-->
         <div class="form-group">
           <label for="news-input">Search Yelp</label>
           <input id="yelp-input" type="text" class="form-control" placeholder="Search Text">
         </div>
         <button type="submit" class="btn btn-primary">Search Yelp API</button>
       </form>
-      <div id="yelp-div"></div>
+      <div id="yelp-div"></div> <!--Display Div-->
 
     </div>
   </body>
