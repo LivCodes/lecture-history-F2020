@@ -1,27 +1,27 @@
-# POST Fetch 
+# POST and DELETE Fetch 
 
 ## Fetch methods
-* GET
-* POST
-* DELETE
-* PATCH
-* PUT 
+* GET - when we want to get data from a server
+* POST - want to send information to a server (get a response back)
+* DELETE - want to send a request to delete a resource (from some Database or server, etc.) 
+* PATCH - update
+* PUT - update
 
 ## Github API (Gists)
 * My gists: https://gist.github.com/thuyanduong
 
-## Fetch options 
-* `method` => string
-* `headers` => object
-* `body` => JSON string
-
 ## Let's GET all my Gists
+
+## Fetch options 
+* `method` => string    //"GET", "POST", "DELETE"
+* `headers` => object   //{"Authorization": "fhdaosf", "Content-Type" : "json"}
+* `body` => JSON string
 
 ## Let's make a POST fetch to create a new Gist
 
 Options object: 
 * `method` MUST be "POST" or "post"
-* `headers` are same as GET for this API
+* `headers` more or less the same as GET for this API
 * `body` is data we want to send to the server to complete our request!!!!
 
 ## Let's make a POST fetch to create a new Gist Comment
@@ -31,7 +31,7 @@ Options object:
 ## Let's make a DELETE fetch to delete our Gist
 
 Options object: 
-* `method` MUST be "POST" or "post"
+* `method` MUST be "DELETE" or "delete"
 * `headers` are same as GET for this API
 * no `body` is needed in the options object
 
