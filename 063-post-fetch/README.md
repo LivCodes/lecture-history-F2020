@@ -24,7 +24,7 @@ Options object:
 * `headers` are same as GET for this API
 * `body` is data we want to send to the server to complete our request!!!!
 
-## Let's make a POST fetch to create a new Gist Comment?
+## Let's make a POST fetch to create a new Gist Comment
 
 ## How do you have error validation?
 
