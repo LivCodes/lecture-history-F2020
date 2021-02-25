@@ -1,0 +1,60 @@
+{
+  "monsters": [
+    {
+      "name": "Mike",
+      "age": 10,
+      "description": "one-eyed green monster",
+      "id": 1
+    },
+    {
+      "name": "Sully",
+      "age": 15,
+      "description": "blue, furry friend",
+      "id": 2
+    },
+    {
+      "name": "Ann",
+      "age": 29,
+      "description": "black haird monster lady",
+      "id": 3
+    },
+    {
+      "name": "Carmen",
+      "age": 20,
+      "description": "black haird monster lady",
+      "id": 4
+    },
+    {
+      "name": "Erwins",
+      "age": 29,
+      "description": "hello",
+      "id": 5
+    },
+    {
+      "name": "Pikachu",
+      "age": 2,
+      "description": "yellow tailed",
+      "id": 6
+    },
+    {
+      "name": "Reuben",
+      "age": 30,
+      "description": "new baby dady",
+      "id": 7
+    }
+  ],
+  "clients": [
+    {
+      "name": "Reuben",
+      "age": 30,
+      "project": "Teach baby how to code",
+      "id": 1
+    },
+    {
+      "name": "Maya",
+      "age": 30,
+      "project": "Mindful  mornings every day!",
+      "id": 2
+    }
+  ]
+}
