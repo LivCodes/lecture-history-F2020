@@ -93,3 +93,6 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 * 02/24 REST and JSON Server: [video](https://us02web.zoom.us/rec/share/E2VLbXbDenj7TmlAzPNI-6Ls9RdYHOok3mKJs1cIx5QIoXQH0k72PqPd6s6j-lp1.0pUOtWbcD_X3DzgA) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/064-REST-and-JSON-Server)
 * 02/25 Github Lab Review part 2: [video](https://us02web.zoom.us/rec/share/4CrQhCJMkVKSV-oiFDWsgbgs8PHRHQm25ZW0yAunl-OOiBrjEoNWjU7NSJIlm-VJ.QkQZ8VkeOvJDuv7S)
 * 02/25 AJAX Patterns: [video](https://us02web.zoom.us/rec/share/tnbqzMcDYBozcRiVc2OjdIhjFFHCYPm5SkaiG6RjZDLNoPi98G9VPaXP5c-mLqT3.4Mz2yxeDgpzBBzST) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/065-AJAX-Patterns)
+
+## Unit 7 
+* 03/15 Intro to Node: [video](https://us02web.zoom.us/rec/share/ut8C2osMr3oiIYPkoGGK5hpsG3NqnSa1gflW7e3rH-2ZG6a_KuJSY6lkwgEPauXm.AnXuphk9iOP6Yjmy?startTime=1615819579000) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/066-intro-to-node)
