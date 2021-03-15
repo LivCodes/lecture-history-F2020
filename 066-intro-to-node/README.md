@@ -3,7 +3,7 @@
 ## What is Node?
 - JavaScript that doesn't live in the Browser
 
-## Why Nodes?
+## Why Node?
 - We can run JavaScript outside the browser, we've done it before!
 - Node REPL (Read-Eval-Print-Loop)
 - Build desktop apps
@@ -17,7 +17,7 @@
 ## Let's Build our first HelloWorld App (Code Along)
 - Create a folder called Intro-to-Node
 - `cd` into it, and `touch` to create a file called `app.js`
-- `console.log` the string `"hello, world!"` 
+- `console.log` the string `hello, world!` 
 - Run the file using `node app.js`
 
 ## Using Node Modules and `require`
@@ -42,7 +42,7 @@
 const rn = require("./randomNames")
 ```
 
-## Packages and NPM
+## Packages and NPM 
 - A Package is a folder with one more more modules inside of it.
 - NPM (Node Package Manager) is the world's largest collection of Node Packages!
 - You can incorpate a ton of packages that other people wrote into your own code!
