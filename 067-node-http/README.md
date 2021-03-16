@@ -1,10 +1,14 @@
 # Node as an HTTP Server
+- precursor to Express Framework
 
 ## `http` Module
 - Used to create server applications
+- Let's create an app that:
+  * Serves multiple pages
+  * Uses query parameters to render dynamic content
 
 ```js
-const http = require("http")
+const http = require("http") //module.exports
 ```
 
 ## Create Basic Server
@@ -36,12 +40,19 @@ server.listen('8080', () => {
 
 ## Handling Mutiple Paths
 - Right now, we see the same page no matter what path
+- `const url = require('url')`
 - `pathName = url.parse(request.url).pathname` and `console.log(pathName)`
 
 ## How to use debugger for Node.js in VSCode!
 
+
+
+
+## Fix URL parse issue :p
+
 ## Modular Code and HTML Templating
+- `fs.readFile(path, [options], callback)`
 
 ## Query Parameters
-- Create a dynamic page that depends on query parameters
+- Create a dynamic content that depends on query parameters
 - `let queryObj = url.parse(request.url,true).query`
