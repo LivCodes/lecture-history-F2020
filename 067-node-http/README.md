@@ -48,11 +48,11 @@ server.listen('8080', () => {
 
 
 
-## Fix URL parse issue :p
+## Fix URL parse issue 
 
 ## Modular Code and HTML Templating
 - `fs.readFile(path, [options], callback)`
 
 ## Query Parameters
 - Create a dynamic content that depends on query parameters
-- `let queryObj = url.parse(request.url,true).query`
+- `let queryObj = url.parse(request.url, true).query`

@@ -1,5 +1,6 @@
 const http = require("http")
 const url = require("url")
+const fs = require("fs")
 
 const app = http.createServer(handleRequest)
 
@@ -10,29 +11,41 @@ function handleRequest(request, response){
   function render(statusCode, content){
     response.writeHead(statusCode)
     response.write(content)
+    response.end()
   }
 
-  //parse the URL, check what is the path
-  //either write "home page" or write "about page"
+  function renderHTML(path, queryObj = {}){
+    console.log(queryObj)
+    fs.readFile(path, 'utf8', (err, data) => {
+      if(!err){
+        //in data, replace {{firstName}} with queryObj.firstName
+        Object.keys(queryObj).forEach(queryParam => {
+          data = data.replace(`{{${queryParam}}}`, queryObj[queryParam])
+        })
+        render(200, data)
+      } else {
+        console.log("error reading file")
+      }
+    })
+  }
+
+  //first, can we isolate the query params?
+  //can we take the data and put it in the HTML?
+  //can be use readFile in any other way?
   
-  //use request.url "/" or "/about"
-  console.log(request.url)
-  if(request.url === "/"){
-    render(200, "<h1>Home Page</h1>")
-  } else if(request.url === "/about"){
-    render(200, '<h1>Welcome to the About page</h1>')
-  } else if(request.url === "/picture"){
-    render(200, '<div><img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGljdHVyZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"/></div>')
+  let URL = url.parse(request.url)
+  if(URL.pathname === "/"){
+    renderHTML("./templates/home.html")
+  } else if(URL.pathname === "/about"){
+    let queryObj = url.parse(request.url, true).query
+    renderHTML("./templates/about.html", queryObj)
+  } else if(URL.pathname === "/greet"){
+    let queryObj = url.parse(request.url, true).query
+    renderHTML("./templates/greet.html", queryObj)
   } else {
     render(404, "Not Found")
   }
-
-  response.end()
 }
-/*
-If the path is / => home page
-If the path is /about => about page
-*/
 
 app.listen(PORT, () => {
   console.log(`Server has started on port ${PORT}`)
