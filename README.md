@@ -96,4 +96,5 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 
 ## Unit 7 
 * 03/15 Intro to Node: [video](https://us02web.zoom.us/rec/share/ut8C2osMr3oiIYPkoGGK5hpsG3NqnSa1gflW7e3rH-2ZG6a_KuJSY6lkwgEPauXm.AnXuphk9iOP6Yjmy?startTime=1615819579000) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/066-intro-to-node)
-* 03/16 HTTP in Nod: [video part 1](https://us02web.zoom.us/rec/share/CFZLA5C1E3b1p7JmINYAk25l127HfeTA7imKZsExQCiPuaEiAy9L5EW3AZKOuXLK.leNSp_5kiYWt3GCc) | video part 2 | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/067-node-http)
+* 03/16 HTTP in Nod: [video part 1](https://us02web.zoom.us/rec/share/CFZLA5C1E3b1p7JmINYAk25l127HfeTA7imKZsExQCiPuaEiAy9L5EW3AZKOuXLK.leNSp_5kiYWt3GCc) | [video part 2](https://us02web.zoom.us/rec/share/Nz5B7G__1M8P456yCb83jGMuQtBguSkVJnuAl_3UiKftogM8lFEmhyJUy0hchunr.8uBWPYQuq7PDMx5R
+) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/067-node-http)
