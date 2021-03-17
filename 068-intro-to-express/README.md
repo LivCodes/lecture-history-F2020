@@ -27,11 +27,14 @@ app.listen(PORT, () => {
 ## Response to POST Requests
 - `npm install body-parser` to install dependency
 - `const bodyParser = require("body-parser")`
-- `app.use(bodyParser.urlencoded({extended: true}))` to parse body in request objects. `{extended: true}` allows for nested objects
+- `app.use(bodyParser.urlencoded({extended: true}))` to parse body in request objects. 
+- `{extended: true}` allows for nested objects in the URL.
+- **NEW WAY**: `app.use(express.urlencoded({extended: true})`
 - console.log `req.body`
 
 ## Serving Static Files
 - CSS
+- JS
 - images
 - `app.use(express.static('public'))`
 
@@ -46,7 +49,6 @@ app.get("*", (req, res) => {
 })
 ```
 
-## APIs on the backend
-- `npm install node-fetch` to install dependency
-- `const fetch = require("node-fetch")`
 
+## Annoucement
+- Asana workshop (postgres)
