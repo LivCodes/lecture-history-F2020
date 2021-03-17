@@ -1,0 +1,13 @@
+<%- include("./layouts/header"); -%>
+<body>
+  <h1>This is the <%= title %></h1>
+  <p>This time is <%= time %></p>
+  <ul class="all-posts">
+    <% for(const post of posts){ %>
+      <li><%= post.name %></li>
+    <% } %>
+  </ul>
+  <script src="script.js"></script>
+</body>
+<%- include("./layouts/footer"); -%>
+</html>
