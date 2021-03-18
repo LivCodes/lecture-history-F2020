@@ -32,6 +32,14 @@ app.listen(PORT, () => {
 - **NEW WAY**: `app.use(express.urlencoded({extended: true})`
 - console.log `req.body`
 
+## 404 Pages
+```js
+app.get("*", (req, res) => {
+  res.status(404)
+  res.send("Not Found")
+})
+```
+
 ## Serving Static Files
 - CSS
 - JS
@@ -41,13 +49,6 @@ app.listen(PORT, () => {
 ## Redirects
 - `res.redirect(301, "/")`
 
-## 404 Pages
-```js
-app.get("*", (req, res) => {
-  res.status(404)
-  res.send("Not Found")
-})
-```
 
 
 ## Annoucement
