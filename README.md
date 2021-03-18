@@ -100,3 +100,5 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 ) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/067-node-http)
 * 03/17 Intro to Express: [video](https://us02web.zoom.us/rec/share/M3qmIz3-bIa0JpuuCr1ALM6iYA2LLtX9E6TU8ouBGfsd06jeg5YXlkcwksf9-Bky._8JYn83rU2JtM-HX?startTime=1615992350000) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/068-intro-to-express)
 * 03/17 Express HTML Templates: [video part 1](https://us02web.zoom.us/rec/share/wT3o_Ednjk8RREzyc13ZZHr4bqql-pIothaQmFIRMEVfUtD9hd44GtNADr6sFo12.zpZn-8I7_4zvRomz) | [video part 2](https://us02web.zoom.us/rec/share/L0yWfL2RFsaesX-0VBYVl7gIHVZrdoFwEYAqmzSYkdqRMp_YcMnvJhIraJnj5LrD.eoPTeS6fF-SqD_rv) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/069-middleware-templating)
+* 03/18 Middleware and CRUD: [video part 1](https://us02web.zoom.us/rec/share/MJzMQa_AVKnrqybAXlIKYJ4f_0_quuB_6xt7Y3QT9x6frB6w6LFsWMy7P4AAGRAa.8djOmstmHSXbZyBH
+) | video part2 | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/070-express-middleware)
