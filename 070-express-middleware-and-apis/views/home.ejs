@@ -1,0 +1,22 @@
+<%- include("./layouts/header"); -%>
+
+<body>
+
+  <%- include("./layouts/navbar"); -%>
+
+  <div class="content">
+  <h1>This is the <%= title %></h1>
+  <h3>Top posts of today: </h3>
+  <ul class="all-posts">
+    <% for(const post of posts){ %>
+      <li><%= post.name %></li>
+    <% } %>
+  </ul>
+  </div>
+  <script src="script.js"></script>
+
+  <%- include("./layouts/footer"); -%>
+
+</body>
+
+</html>
