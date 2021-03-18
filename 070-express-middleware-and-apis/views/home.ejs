@@ -9,11 +9,10 @@
   <h3>Top posts of today: </h3>
   <ul class="all-posts">
     <% for(const post of posts){ %>
-      <li><%= post.name %></li>
+      <li><a href="/showPost/<%= post.id %>"><%= post.name %></a></li>
     <% } %>
   </ul>
   </div>
-  <script src="script.js"></script>
 
   <%- include("./layouts/footer"); -%>
 

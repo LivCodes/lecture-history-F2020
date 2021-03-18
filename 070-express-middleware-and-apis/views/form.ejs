@@ -1,0 +1,20 @@
+<%- include("./layouts/header"); -%>
+<body>
+  <%- include("./layouts/navbar"); -%>
+  <div class="content">
+    <h1>Form to Add a Post</h1>
+    <form action="/addPost" method="post">
+      <label for="postTitle">Title:</label>
+      <input name="postTitle" type="text"/>
+      <br>
+      <label for="postContent">Content:</label>
+      <textarea name="postContent" type="text"></textarea>
+      <br>
+      <input type="submit" value="Submit"/>
+    </form>
+  </div>
+
+  <%- include("./layouts/footer"); -%>
+
+</body>
+</html>

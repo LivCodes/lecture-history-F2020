@@ -5,8 +5,9 @@
   <%- include("./layouts/navbar"); -%>
 
   <div class="content">
-    <h1><%= title %></h1>
-    <p>We are the best</p>
+    <h1><%= post.name %></h1>
+    <p><%= post.content %></p>
+    <button id="button"><a href="/deletePost/<%= post.id %>">Delete</a></button>
   </div>
 
   <%- include("./layouts/footer"); -%>

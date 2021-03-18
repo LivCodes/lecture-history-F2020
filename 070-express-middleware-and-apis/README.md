@@ -30,6 +30,24 @@
 
 
 
+HTTP
+- get 
+- post
+- delete
+- patch
+- put
+
+
+HTML
+- get
+- post
+
+
+
+
+
+
+
 ## Making APIs call on the backend
 - More secure (hide API keys/details from the client)
 - Avoid Cross Origin (CORS) complications
