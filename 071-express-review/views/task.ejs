@@ -1,0 +1,19 @@
+<%- include('./partials/header.ejs') %>
+<body>
+  <%- include('./partials/navbar.ejs') %>
+  <div class="ui segment container">
+    <h1><%= task.title %></h1>
+    <p>Description: <%= task.description %></p>
+    <p>Status: <%= task.done ? "Done" : "Not Done" %></p>
+    <form action="/tasks/<%= task.id %>/edit">
+      <input type="submit" value="Edit">
+    </form>
+    <form action="/tasks/<%= task.id %>?_method=PATCH" method="post">
+      <input type="submit" value="Mark As Complete">
+    </form>
+    <form action="/tasks/<%= task.id %>?_method=DELETE" method="post">
+      <input type="submit" value="Delete Task">
+    </form>
+  </div>
+</body>
+</html>
