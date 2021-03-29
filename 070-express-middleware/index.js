@@ -80,6 +80,7 @@ app.get("/home", (req, res) => {
 
 
 app.post("/addPost", (req, res) => {
+  console.log(req.body)
   let {postTitle, postContent} = req.body
   postCounter++
   let newPost = {name: postTitle, content: postContent, id: postCounter}
