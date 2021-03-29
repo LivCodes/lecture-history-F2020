@@ -1,9 +1,11 @@
 # Express API Project
 - Builds a CRUD API that connects to a Postgres Database
+- Domain: Users
+- ERD
 
 ## 1. Set up express app
 - `npm init`
-- `npm i express ejs`
+- `npm i express`
 - index.js
 - package.json scripts
 
@@ -14,11 +16,11 @@
 - We first need to create our DB via psql or pgAdmin
 - We will use node-postgres to connect our express app to our DB
     - `npm install pg dotenv`
-    - `.env` will store our environment variables
     - `db` folder will hold a `db.js` file
+    - `.env` will store our environment variables and put in `.gitignore`
 
 ```js
-require('dotenv').config() //needed for loading env variables on heroku
+require('dotenv').config() 
 const {Pool} = require('pg')
 
 const connectionLocal = {
@@ -54,3 +56,9 @@ app.get('/users', (req, res) => {
 ## 5. Abstraction and Classes
 * Create a generate query executer function
 * Create `models` folder with a User.js class
+
+```js
+const query = (queryText, queryParams) => {
+    return pool.query(queryText, queryParams)
+}
+```
