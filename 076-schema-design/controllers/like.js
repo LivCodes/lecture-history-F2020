@@ -1,1 +1,0 @@
-const {Like} = require('../models/Like');

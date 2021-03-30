@@ -20,7 +20,7 @@ INSERT INTO tweets (user_id, content, created_at) VALUES
   (1, 'If I EXPRESS myself, will you REACT to it? #codingpuns', now()),
   (3, 'I''m already planning my next Thanksgiving Day Turkey dinner', now());
 
-CREATE TABLE likes (id SERIAL PRIMARY KEY, user_id INT REFERENCES users(id), tweet_id INT REFERENCES tweets(id));
+CREATE TABLE likes (user_id INT REFERENCES users(id), tweet_id INT REFERENCES tweets(id), PRIMARY KEY(user_id, tweet_id));
 
 INSERT INTO likes (user_id, tweet_id) VALUES
   (1, 1),

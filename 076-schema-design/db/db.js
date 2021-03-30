@@ -17,7 +17,8 @@ const connectionProduction = {
 const pool = new Pool(process.env.NODE_ENV === 'production' ? connectionProduction : connectionLocal)
 
 const query = (queryText, queryParams) => {
-  return pool.query(queryText, queryParams)
+  return pool.query(queryText, queryParams) // return that entire database promise
 }
 
 module.exports = {query}
+
