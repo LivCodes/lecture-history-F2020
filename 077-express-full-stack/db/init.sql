@@ -1,18 +1,24 @@
 DROP TABLE IF EXISTS pets;
 DROP TABLE IF EXISTS users;
 
-CREATE TABLE users (id SERIAL PRIMARY KEY, name TEXT, bio TEXT);
+CREATE TABLE users (id SERIAL PRIMARY KEY, name TEXT, email TEXT);
 
-INSERT INTO users (name, bio) VALUES 
-    ('Erwins', 'I''m an instructor'),
-    ('Carmen', 'I''m an teaching fellow'),
-    ('Motun', 'I''m a program manager');
+INSERT INTO users (name, email) VALUES 
+    ('Erwins', 'erwins@gmail.com'),
+    ('Carmen', 'carmen@gmail.com'), 
+    ('Motun', 'motun@yahoo.com');
 
-CREATE TABLE pets (id SERIAL PRIMARY KEY, pet_name TEXT, species TEXT, user_id INT REFERENCES users(id));
+CREATE TABLE pets (
+    id SERIAL PRIMARY KEY, 
+    pet_name TEXT, 
+    species TEXT, 
+    age INT, 
+    user_id INT REFERENCES users(id)
+);
 
-INSERT INTO pets (pet_name, species, user_id) VALUES
-    ('Fluffy', 'Cat', 1),
-    ('Fido', 'Dog', 1),
-    ('Polly', 'Bird', 2),
-    ('Sparky', 'Dog', 3),
-    ('Tabby', 'Cat', 2);
+INSERT INTO pets (pet_name, species, age, user_id) VALUES
+    ('Fluffy', 'Cat', 3, 1),
+    ('Fido', 'Dog', 1, 1),
+    ('Polly', 'Bird', 4, 2),
+    ('Sparky', 'Dog', 5, 3),
+    ('Tabby', 'Cat', 7, 2);

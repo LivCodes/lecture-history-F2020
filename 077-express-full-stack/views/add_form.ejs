@@ -7,7 +7,7 @@
     <title><%= title %></title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="js/index.js"></script>
+    <script src="/js/index.js"></script>
 </head>
 <body>
     <header>
@@ -25,15 +25,20 @@
     <br>
     <br>
     <main role="main" class="container">
-        <h1>Add a Pet</h1>
+        <h1>Add a Pet for <%= user.name %> </h1>
         <form id="add-pet">
+            <input type="hidden" name="user_id" value=<%= user.id %> />
             <div class="mb-3">
               <label for="petNameInput" class="form-label">Pet Name</label>
-              <input type="text" class="form-control" id="petNameInput">
+              <input type="text" class="form-control" id="petNameInput" name="pet_name">
             </div>
             <div class="mb-3">
               <label for="speciesInput" class="form-label">Species</label>
-              <input type="text" class="form-control" id="speciesInput">
+              <input type="text" class="form-control" id="speciesInput" name="species">
+            </div>
+            <div class="mb-3">
+              <label for="ageInput" class="form-label">Age</label>
+              <input type="number" class="form-control" id="ageInput" name="age">
             </div>
             <button type="submit" class="btn btn-primary">Add Pet</button>
           </form>

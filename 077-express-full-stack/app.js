@@ -1,6 +1,8 @@
 const express = require('express');
 const PORT = process.env.PORT || 8000;
 const app = express();
+const usersRouter = require('./routes/usersRouter')
+const petsRouter = require('./routes/petsRouter')
 
 // Set the view engine to EJS so we can render files in /views
 app.set('view engine', 'ejs');
@@ -19,7 +21,15 @@ app.use("/", (req, res, next) => {
 })
 
 app.get('/', (req, res) => {
-    res.status(200).render('home', {title: 'Home Page'});
+    res.redirect('/users')
 })
+
+// POST /tasks => create a new task
+
+app.use('/users', usersRouter)
+app.use('/pets', petsRouter)
+
+
+//app.use('/api', apiRouter)
 
 app.listen(PORT, () => {console.log(`Server starting on port ${PORT}`)});
