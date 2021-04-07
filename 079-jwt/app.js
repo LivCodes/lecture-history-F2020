@@ -5,6 +5,7 @@ const bcrypt = require('bcrypt')
 const usersRouter = require('./routes/usersRouter')
 const petsRouter = require('./routes/petsRouter')
 const User = require("./models/User")
+const Auth = require("./models/Auth")
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
@@ -34,13 +35,28 @@ app.post('/login', async (req, res) => {
     //match is a boolean of whether the password match
     const match = await bcrypt.compare(password, user.encrypted_password);
     if(match){
-      res.json({message: "These are the correct credentials."})
+      delete user.encrypted_password
+      const token = Auth.encryptToken(user.id)
+      res.json({user, token})
     } else {
-      res.status(401).json({message: "These invalid credentials."})
+      res.status(401).json({message: "These are invalid credentials."})
     }
   } else {
-    res.status(401).json({message: "These invalid credentials."})
+    res.status(401).json({message: "These are invalid credentials."})
   }
+})
+
+app.get('/sayhi', async (req, res) => {
+  //how to extract the token from a request to verify the user
+  try{
+    const token = req.headers.authentication
+    const user_id = Auth.decryptToken(token)
+    const user = await User.getUser(user_id)
+    res.send(`This token belongs to ${user.name}`)
+  } catch {
+    res.send("You are not authenticated")
+  }
+
 })
 
 app.use('/users', usersRouter)
