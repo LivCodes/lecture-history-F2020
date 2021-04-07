@@ -41,7 +41,7 @@ app.get("/home", (req, res) => {
   }
 });
 
-//bcrypt and db query using promises
+//bcrypt and db query using promises and callbacks
 app.post("/register", (req, res) => {
   const {name, email, password} = req.body
   bcrypt.hash(password, 10, (error, hash) => {
