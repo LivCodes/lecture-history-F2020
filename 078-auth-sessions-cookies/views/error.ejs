@@ -1,6 +1,5 @@
 <%- include('./partials/header') %> 
 
-<% if (this.error){ %>
   <h3>
     <%= error.message %>
    </h3>
@@ -8,9 +7,5 @@
    <pre>
     <%= error.stack %>
    </pre>
-<% } else { %>
-  <h2>404</h2>
-<% } %>
-
 
 <%- include('./partials/footer') %> 

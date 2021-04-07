@@ -41,6 +41,7 @@ app.get("/home", (req, res) => {
   }
 });
 
+//bcrypt and db query using promises
 app.post("/register", (req, res) => {
   const {name, email, password} = req.body
   bcrypt.hash(password, 10, (error, hash) => {
@@ -54,34 +55,39 @@ app.post("/register", (req, res) => {
           //user is succesfully created and saved to DB
           req.session.user = user 
           res.redirect("/home")
-        }).catch(err => res.render("error", error))
+        }).catch(error => {
+          res.render("error", {error})
+        })
     }
   })
 })
 
-app.post('/login', (req, res) => {
+//bcrypt and db query using async/await
+app.post('/login', async (req, res) => {
   const {email, password} = req.body
+
   //compare the email to the email
-  db.query("SELECT * FROM users WHERE email = $1", [email])
+  const user = await db.query("SELECT * FROM users WHERE email = $1", [email])
     .then(results => results.rows[0])
-    .then(user => {
-      if(user){
-        bcrypt.compare(password, user.encrypted_password, (err, results) => {
-          if (results) {
-            // the email exists in the db
-            // the password was a match
-            req.session.user = user
-            res.redirect('/home')
-          } else {
-            throw new Error("Invalid credentials")
-          }
-        })
+
+  try {
+    if(user){
+      let results = await bcrypt.compare(password, user.encrypted_password)
+      if (results) {
+        // the email exists in the db
+        // the password was a match
+        req.session.user = user
+        res.redirect('/home')
       } else {
-        throw new Error("Invalid credentials")
+        throw Error("Invalid credentials");
       }
-    }).catch(err => {
-      res.render("login", {message: err.message})
-    })
+    } else {
+      throw Error("Invalid credentials");
+    }
+  } catch (error) {
+    res.render("login", {message: error.message})
+  }
+
 })
 
 app.get('/logout', (req, res) => {
@@ -89,9 +95,6 @@ app.get('/logout', (req, res) => {
   res.redirect('/login')
 })
 
-app.get("*", (req, res) => {
-  res.render("error");
-});
 
 
 
