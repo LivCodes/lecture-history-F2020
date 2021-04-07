@@ -5,7 +5,7 @@ const Auth = require('../models/Auth')
 const authenticate = (req, res, next) => {
   //req.params.id => id IN THE URL 
   //req.headers.authentication => token in the headers 
-  //conert the token to a user's id 
+  //convert the token to a user's id 
   //compare the user's id to the params id
   //if the two ids match => next()
   //else => res.sendStatus(401)
