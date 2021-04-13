@@ -3,7 +3,6 @@
 ## Migrations
 * Migrations are special files that run queries on your DB to perform structural updates
 * Version control for you Database!
-* [Knex Documentation](http://knexjs.org/)
 
 ## Migration Terms
 * Migration
@@ -14,11 +13,15 @@
 * Status
 
 ## Set Up
+* [Knex Documentation](http://knexjs.org/)
 * `npm install knex` to install knex for your project
 * `sudo npm install -g knex` to use the knex command line tool
 * Otherwise, you'll have to type `node_modules/.bin/knex`
 * `knex init`
     * Update your `knexfile` to the correct configurations
+
+#### Hypothetical Project
+* Users and pets!
 
 ## Create Migration files
 * `knex migrate:make <name-of-file>`
@@ -36,6 +39,7 @@
 ## Seeding
 * Performing initial data changes to your database
 * For seeding complex relational data, [read this blog](https://medium.com/@jaeger.rob/seed-knex-postgresql-database-with-json-data-3677c6e7c9bc)
+* `knex seed:run`
 
 ## Deploying
 * [How to deploy Node/Express/Postgres/Knex application](https://dev.to/sandravaphilips/how-to-deploy-to-heroku-using-postgres-2i2p)
@@ -102,5 +106,15 @@ exports.seed = function(knex) {
         {name: 'Kahlo', user_id: 2, created_at: new Date(), updated_at: new Date()}
       ]);
     })
+};
+```
+
+```js
+exports.up = function(knex) {
+  return knex.raw("ALTER TABLE pets ADD species TEXT DEFAULT 'dog';")
+};
+
+exports.down = function(knex) {
+  return knex.raw("ALTER TABLE pets DROP COLUMN species;")
 };
 ```
