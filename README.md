@@ -115,3 +115,4 @@ Lecture notes and slides can be viewed by exploring the folders in this reposito
 
 ### Unit 8 
 * 04/19 Intro to React: [video](https://us02web.zoom.us/rec/share/ZTVaBAU0prGi6xR5E1bj5KuzJaPQ4wLYPZgPKrvOcgtselldILphrDA4hCh5KgQs.Tq0SN-QswwoKS_tT) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/081-intro-to-react)
+* 04/20 Components and props: [video](https://us02web.zoom.us/rec/share/cy6zWOCAfxXHbOKdUJqM_4lo5tdOL5r_NMNV32EVrChpROfCBBsnBUWv-tDB5o8U.Tt927fPrImMV2vbv) | [code](https://github.com/The-Marcy-Lab-School/lecture-history-F2020/tree/master/082-components-and-props)
