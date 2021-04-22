@@ -1,28 +1,42 @@
-import { useState } from 'react';
-import '../App.css';
+import {useState} from 'react'
 import AddTaskForm from './AddTaskForm'
-// import SearchBar from './SearchBar'
+import SearchBar from './SearchBar'
 import TaskList from './TaskList'
 
 const data = [
-  {id: 1, title: "Wake up", due: "today", done: false},
-  {id: 2, title: "Do work", due: "tomorrow", done: false},
-  {id: 3, title: "Go to bed", due: "today", done: false}
+  {title: "Wake up", due: "today"},
+  {title: "Do work", due: "tomorrow"},
+  {title: "Work out", due: "tomorrow"},
+  {title: "Go to bed", due: "today"}
 ]
 
 function App() {
   const [tasks, setTasks] = useState(data)
-  const [searchTerm, setSearchTerm] = useState("")
+  const [searchValue, setSearchValue] = useState("")
 
-  function search(e){
-    setSearchTerm(e.target.value)
+  //state changing callback function
+  function changeSearchValue(event) {
+    setSearchValue(event.target.value)
   }
+
+  //state changing callback function
+  // function addingTask(newTaskObj){
+  //   setTasks(prevTasks => [...prevTasks, newTaskObj])
+  // }
 
   return (
     <div className="App">
-      <AddTaskForm/>
-      <input type="text" placeholder="Search tasks" value={searchTerm} onChange={search}/>
-      <TaskList tasks={tasks} searchTerm={searchTerm}/>
+      <AddTaskForm 
+        setTasks={setTasks}
+      />
+      <SearchBar 
+        searchValue={searchValue} 
+        changeSearchValue={changeSearchValue}
+      />
+      <TaskList 
+        tasks={tasks} 
+        searchValue={searchValue}
+      />
     </div>
   );
 }
