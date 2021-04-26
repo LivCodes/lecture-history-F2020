@@ -39,7 +39,7 @@ code {
 }
 
 .light {
-  background-color: white;
+  background-color: lightgray;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
