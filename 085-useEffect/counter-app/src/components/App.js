@@ -1,9 +1,12 @@
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 
 function App() {
+  const [showCounter, setShowCounter] = useState(true)
+
   return (
     <div className="App">
-      <Counter />
+      <button onClick={()=>{setShowCounter(false)}}>Remove Counter</button>
+      {showCounter ? <Counter /> : null}
     </div>
   );
 }
@@ -12,12 +15,26 @@ function Counter(){
   const [count, setCount] = useState(0)
   const [isDarkMode, setDarkMode] = useState(true)
 
+  useEffect(()=>{
+    console.log("Invoking useEffect")
+
+    const timerId = setInterval( () => {
+      console.log(`Inside setInterval`)
+      setCount(prev => prev + 1)
+    }, 1000)
+
+    return () => {
+      console.log("clean up")
+      clearInterval(timerId)
+    }
+
+  }, [])
+
   return (
     <div className={isDarkMode ? "dark" : "light"}>
       <h1>{count}</h1>
       <div>
-        <button onClick={()=>{setCount(prev => ++prev)}}>+</button>
-        <button onClick={()=>{setCount(prev => --prev)}}>-</button>
+
       </div>
       <button onClick={()=>{setDarkMode(prev => !prev)}}>Toggle Dark Mode</button>
     </div>
@@ -25,3 +42,19 @@ function Counter(){
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
