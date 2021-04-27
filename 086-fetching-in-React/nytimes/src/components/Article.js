@@ -1,6 +1,6 @@
 function Article(props){
   return (
-    <li><a href="#App">Title of Article Here</a></li>
+    <li><a href={props.url}>{props.title}</a></li>
   )
 }
 
