@@ -1,11 +1,11 @@
 function Searchbar(props){
-  console.log("Searchbars's props:", props)
+  const {searchTerm, setSearchTerm} = props
 
   function handleChange(e){
-    props.setSearchTerm(e.target.value)
+    setSearchTerm(e.target.value)
   }
 
-  return <input className="search" placeholder="Search..." value={props.searchTerm} onChange={handleChange}/>
+  return <input className="search" placeholder="Search..." value={searchTerm} onChange={handleChange}/>
 }
 
 export default Searchbar

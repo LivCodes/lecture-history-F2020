@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Team pokemon={myTeam}/>
+      <Team/>
       <br />
       <Searchbar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
       <PokemonCollection pokemon={getFilteredPokemon()}/>
