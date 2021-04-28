@@ -11,18 +11,6 @@ const MyContext = React.createContext()
 * A Context object has two properties that are components: `MyContext.Provider` and `MyContext.Consumer`. 
 * Every Context object comes with a Provider React component that allows consuming components to subscribe to state changes.
 
-## Step 2. Create a Provider Component to hold state
-
-* Create a custom component that holds state
-* This component returns <MyContext.Provider value={/* some object that references state and callbacks */}>
-
-## Step 3. Consume state
-
-* `MyContext.Consumer` for `class` components
-* `useContext()` for `function` components
-* `const state = useContext(MyContext)` takes in a Context object as an argument and returns the `value` prop passed into `MyContext.Provider`
-
-
 PokemonContext.js
 ```js
 import {createContext} from 'react'
@@ -31,6 +19,11 @@ const PokemonContext = createContext()
 
 export default PokemonContext
 ```
+
+## Step 2. Create a Provider Component to hold state
+
+* Create a custom component that holds state
+* This component returns <MyContext.Provider value={/* some object that references state and callbacks */}>
 
 PokemonProvider.js
 ```js
@@ -60,3 +53,17 @@ function PokemonProvider(props){
 
 export default PokemonProvider
 ```
+
+## Step 3. Consume state
+
+* `MyContext.Consumer` for `class` components
+* `useContext()` for `function` components
+* `const state = useContext(MyContext)` takes in a Context object as an argument and returns the `value` prop passed into `MyContext.Provider`
+
+Searchbar.js
+```js
+function Searchbar(){
+  const {searchTerm, setSearchTerm} = useContext(PokemonContext)
+}
+```
+
