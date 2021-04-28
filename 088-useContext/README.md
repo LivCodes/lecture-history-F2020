@@ -1,6 +1,10 @@
-# [useContext]()
+# [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
-In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.
+Hook into React' [Context API](https://reactjs.org/docs/context.html)
+
+In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome. 
+
+Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.
 
 ## Step 1. createContext()
 
@@ -8,8 +12,9 @@ In a typical React application, data is passed top-down (parent to child) via pr
 const MyContext = React.createContext()
 ```
 * Creates a Context object. 
-* A Context object has two properties that are components: `MyContext.Provider` and `MyContext.Consumer`. 
-* Every Context object comes with a Provider React component that allows consuming components to subscribe to state changes.
+* A Context object has two properties that are components: 
+    `MyContext.Provider` and `MyContext.Consumer`. 
+* Every Context object comes with a Provider component that allows consuming components to subscribe to state changes.
 
 PokemonContext.js
 ```js
