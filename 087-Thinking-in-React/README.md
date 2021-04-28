@@ -18,7 +18,7 @@ X. Identify Where Your State Should Live
 `const shownPokemon = allPokemon but filtered on the searchTerm minus the pokemon on our team`
 
 
-App (all state)
+App 
  |- Header
  |- Team
  |    |- Card ...   
@@ -27,17 +27,12 @@ App (all state)
       |- Card ...
 
 # Features
-- Click on a pokmeon to add it to the team
+X On load of the app, there is no team, but we all see pokemon in the collection
+X Click on a pokmeon to add it to the team
+X We can have a max of 6 pokemon on a team
+X We cannot have duplicate pokemon on our team
 - Click on a pokemon to remove it from the team
-- On load of the app, there is no team
-- We can have a max of 6 pokemon on a team
 - Reset button will remove all pokemon in our team
-- We cannot have duplicate pokemon on our team
-  - if a pokemon is added to the team, it will be filtered out and not display in our list 
-
-Important features:
-- Adding and removing pokemon to the team
 
 Stretch features:
-- Searchbar
-- Reset button
+X Searchbar

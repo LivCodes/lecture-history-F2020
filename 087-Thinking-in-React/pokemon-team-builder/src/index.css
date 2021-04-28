@@ -61,7 +61,7 @@ code {
 
 .pokemon {
   display: inline-block;
-  width: 12%;
+  width: 150px;
   background-color: #FFD700;
   padding: 30px 0px 30px 0px;
   margin: 10px 10px;

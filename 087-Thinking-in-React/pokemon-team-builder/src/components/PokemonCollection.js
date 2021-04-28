@@ -1,13 +1,12 @@
 import Card from './Card'
 
 function PokemonCollection(props){
-  const {pokemon} = props
-
+  const {pokemons, addPokemonToTeam} = props //array of pokemon objects
   return (
     <>
       <h3>Pokemon Collection:</h3>
       <div>
-        {pokemon.map(pokemon => <Card key={pokemon.id} pokemonData={pokemon}/>)}
+        {pokemons.map(p => <Card key={p.id} pokemon={p} clickHandler={addPokemonToTeam}/>)}
       </div>
     </>
   )
