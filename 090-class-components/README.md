@@ -1,28 +1,34 @@
 # Class Components
 * `Header`
-* `Episode`
 * `EpisodeList`
+* `Episode`
 * `App`
 
 ## Render method
 ```js
-class MyComponents {
+import React from 'react'
+
+class MyComponents extends React.Component{
     render(){
         return <div>Some JSX</div>
     }
 }
 ```
 
+## Props
+* `this.props`
+
 ## State
 * How to initialize State
+    * `constructor(){ super() }`
     * `this.state = {}`
     * `state = {}`
 * How to update state
     * `this.setState(obj)`
-    * `this.setState(prev => newState)`
+        * obj passed into `setState` will be **merged** with the existing state object
+    * `this.setState(prevState => newState)`
 
-## Props
-* `this.props`
+## Instance Methods
 
 ## Lifecycle Methods
 * `componentDidMount()`
