@@ -8,7 +8,7 @@
 ```js
 import React from 'react'
 
-class MyComponents extends React.Component{
+class MyComponent extends React.Component{
     render(){
         return <div>Some JSX</div>
     }
@@ -21,12 +21,10 @@ class MyComponents extends React.Component{
 ## State
 * How to initialize State
 
-```
+```js
 constructor(){ 
     super()
-    this.state = {
-
-    }
+    this.state = {}
 }
 ```
 
@@ -41,7 +39,19 @@ OR
 
 ## Instance Methods
 
+```js
+class MyComponent(){
+    instanceMethod(){
+
+    }
+
+    render(){
+        <div onClick={this.instanceMethod}></div>
+    }
+}
+```
+
 ## Lifecycle Methods
 * `componentDidMount()`
 * `componentDidUpdate()`
-* `componentWillUnmount`
+* `componentWillUnmount()`
