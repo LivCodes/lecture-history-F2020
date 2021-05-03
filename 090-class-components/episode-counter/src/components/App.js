@@ -1,28 +1,37 @@
-import {useState, useEffect} from 'react'
+import {Component} from 'react'
 import Header from './Header'
 import EpisodeList from './EpisodeList'
 
-function App() {
-  const [episodes, setEpisodes] = useState([])
-  const [showHeader, setShowHeader] = useState(true)
+class App extends Component {
+  state = {
+    episodes: [],
+    showHeader: true
+  }
 
-  useEffect(() => {
+  componentDidMount(){
     fetch("http://localhost:4000/episodes")
-      .then(res => res.json())
-      .then(episodes => {
-        setEpisodes(episodes)
-      })
-  }, [])
+    .then(res => res.json())
+    .then(data => {
+      this.setState({episodes: data})
+    })
+  }
 
-  return (
-    <div className="App">
-      <button onClick={()=>{setShowHeader(prev => !prev)}}>
-        {showHeader ? "Hide Header" : "Show Header"}
-      </button>
-      {showHeader ? <Header /> : null}
-      <EpisodeList episodes={episodes}/>
-    </div>
-  );
+  toggleHeader = () => {
+    this.setState({showHeader: !this.state.showHeader})
+  }
+
+  render(){
+    const {showHeader, episodes} = this.state
+    return (
+      <div className="App">
+        <button onClick={this.toggleHeader}>
+          {showHeader ? "Hide Header" : "Show Header"}
+        </button>
+        {showHeader ? <Header /> : null}
+        <EpisodeList episodes={episodes}/>
+      </div>
+    );
+  }
 }
 
 export default App;
